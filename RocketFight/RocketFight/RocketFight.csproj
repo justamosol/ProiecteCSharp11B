@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{274365C9-5976-49D0-A51A-1E100F6F422E}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RocketFight</RootNamespace>
+    <AssemblyName>RocketFight</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>61726</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>21963</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\iTunesArtwork%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Fighter1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Fighter2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Fighter2.imageset\Spaceship2.jpg" />
+    <ImageAsset Include="Assets.xcassets\Fighter3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Fighter4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaserGreen.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaserBlue.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaserRed.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CircleController.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CircleController.imageset\CircleController.png" />
+    <ImageAsset Include="Assets.xcassets\CircleArrow.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\CircleArrow.imageset\CircleArrow.png" />
+    <ImageAsset Include="Assets.xcassets\BackgroundCity.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BackgroundCity.imageset\background2.jpg" />
+    <ImageAsset Include="Assets.xcassets\Meteor1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Meteor1.imageset\meteorBrown_big2.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Meteor3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Meteor4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Meteor5.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Meteor6.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaserRed.imageset\laserRed12.png" />
+    <ImageAsset Include="Assets.xcassets\LaserGreen.imageset\laserGreen03.png" />
+    <ImageAsset Include="Assets.xcassets\LaserBlue.imageset\laserBlue12.png" />
+    <ImageAsset Include="Assets.xcassets\Fighter1.imageset\playerShip2_orange.png" />
+    <ImageAsset Include="Assets.xcassets\Fighter2.imageset\playerShip2_blue.png" />
+    <ImageAsset Include="Assets.xcassets\Fighter4.imageset\playerShip3_blue.png" />
+    <ImageAsset Include="Assets.xcassets\Fighter3.imageset\playerShip3_red.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor2.imageset\meteorBrown_big1.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor3.imageset\meteorGrey_big1.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor4.imageset\meteorBrown_big4.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor5.imageset\meteorBrown_med3.png" />
+    <ImageAsset Include="Assets.xcassets\Meteor6.imageset\meteorGrey_small1.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No5.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No6.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No7.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No8.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No9.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No0.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No1.imageset\numeral1.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No2.imageset\numeral2.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No3.imageset\numeral3.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No4.imageset\numeral4.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No5.imageset\numeral5.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No6.imageset\numeral6.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No7.imageset\numeral7.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No8.imageset\numeral8.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No9.imageset\numeral9.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\No0.imageset\numeral0.png" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\NoX.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Numbers.spriteatlas\NoX.imageset\numeralX.png" />
+    <ImageAsset Include="Assets.xcassets\Effects.spriteatlas\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Effects.spriteatlas\Explosion.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Effects.spriteatlas\Explosion.imageset\Explosion.png" />
+    <ImageAsset Include="Assets.xcassets\Bonuses.spriteatlas\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Bonuses.spriteatlas\DoubleGun.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Bonuses.spriteatlas\Shield.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Bonuses.spriteatlas\Shield.imageset\powerupRed_shield.png" />
+    <ImageAsset Include="Assets.xcassets\Enemy.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Enemy.imageset\ufoBlue.png" />
+    <ImageAsset Include="Assets.xcassets\Enemy.imageset\ufoGreen.png" />
+    <ImageAsset Include="Assets.xcassets\Enemy.imageset\ufoRed.png" />
+    <ImageAsset Include="Assets.xcassets\Enemy.imageset\ufoYellow.png" />
+    <ImageAsset Include="Assets.xcassets\Bonuses.spriteatlas\DoubleGun.imageset\powerupRed_bolt.png" />
+    <ImageAsset Include="Assets.xcassets\Effects.spriteatlas\RocketExplosion.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter1Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter2Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter3Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter4Icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter1Icon.imageset\playerLife2_orange.png" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter2Icon.imageset\playerLife2_blue.png" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter3Icon.imageset\playerLife3_red.png" />
+    <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter4Icon.imageset\playerLife3_blue.png" />
+    <ImageAsset Include="Assets.xcassets\PlayerWinsIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\PlayerWinsIcon.imageset\star_bronze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Fighter1.imageset\" />
+    <Folder Include="Assets.xcassets\Fighter2.imageset\" />
+    <Folder Include="Assets.xcassets\Fighter3.imageset\" />
+    <Folder Include="Assets.xcassets\Fighter4.imageset\" />
+    <Folder Include="Assets.xcassets\Fighter5.imageset\" />
+    <Folder Include="Assets.xcassets\LaserGreen.imageset\" />
+    <Folder Include="Assets.xcassets\LaserBlue.imageset\" />
+    <Folder Include="Assets.xcassets\LaserRed.imageset\" />
+    <Folder Include="Assets.xcassets\CircleController.imageset\" />
+    <Folder Include="Assets.xcassets\CircleArrow.imageset\" />
+    <Folder Include="Assets.xcassets\BackgroundCity.imageset\" />
+    <Folder Include="Assets.xcassets\Heart.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor1.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor2.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor3.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor4.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor5.imageset\" />
+    <Folder Include="Assets.xcassets\Meteor6.imageset\" />
+    <Folder Include="Assets.xcassets\No1.imageset\" />
+    <Folder Include="Assets.xcassets\No2.imageset\" />
+    <Folder Include="Assets.xcassets\No3.imageset\" />
+    <Folder Include="Assets.xcassets\No4.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No1.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No2.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No3.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No4.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No5.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No6.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No7.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No8.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No9.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\No0.imageset\" />
+    <Folder Include="Assets.xcassets\Numbers.spriteatlas\NoX.imageset\" />
+    <Folder Include="Assets.xcassets\.imageset\" />
+    <Folder Include="Assets.xcassets\Effects.spriteatlas\" />
+    <Folder Include="Assets.xcassets\Effects.spriteatlas\Explosion.imageset\" />
+    <Folder Include="Assets.xcassets\Bonuses.spriteatlas\" />
+    <Folder Include="Assets.xcassets\Bonuses.spriteatlas\DoubleGun.imageset\" />
+    <Folder Include="Assets.xcassets\Bonuses.spriteatlas\Shield.imageset\" />
+    <Folder Include="Assets.xcassets\Enemy.imageset\" />
+    <Folder Include="Assets.xcassets\Effects.spriteatlas\RocketExplosion.imageset\" />
+    <Folder Include="Assets.xcassets\Players.spriteatlas\" />
+    <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter1Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter2Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter3Icon.imageset\" />
+    <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter4Icon.imageset\" />
+    <Folder Include="Assets.xcassets\PlayerWinsIcon.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="GameScene.sks" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="InitializationViewController.xib" />
+    <InterfaceDefinition Include="CharacterSetupViewController.xib" />
+    <InterfaceDefinition Include="SettingsViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="GameViewController.cs" />
+    <Compile Include="GameViewController.designer.cs">
+      <DependentUpon>GameViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameScene.cs" />
+    <Compile Include="Obstacles.cs" />
+    <Compile Include="Players.cs" />
+    <Compile Include="InitializationViewController.cs" />
+    <Compile Include="InitializationViewController.designer.cs">
+      <DependentUpon>InitializationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharacterSetupViewController.cs" />
+    <Compile Include="CharacterSetupViewController.designer.cs">
+      <DependentUpon>CharacterSetupViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsViewController.cs" />
+    <Compile Include="SettingsViewController.designer.cs">
+      <DependentUpon>SettingsViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

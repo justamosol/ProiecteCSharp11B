@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{274365C9-5976-49D0-A51A-1E100F6F422E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RocketFight/Players.cs">
+    <Files>
+      <File FileName="RocketFight/GameScene.cs" Line="354" Column="29" />
+      <File FileName="RocketFight/Players.cs" Line="41" Column="79" />
+      <File FileName="RocketFight/Main.cs" Line="45" Column="34" />
+      <File FileName="RocketFight/Obstacles.cs" Line="103" Column="57" />
+      <File FileName="RocketFight/InitializationViewController.cs" Line="30" Column="38" />
+      <File FileName="RocketFight/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="RocketFight/SettingsViewController.cs" Line="21" Column="10" />
+      <File FileName="RocketFight/CharacterSetupViewController.cs" Line="32" Column="57" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RocketFight PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1E5DDE3F-8E50-4C5E-8AAB-C1A63CFF8A76">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.RocketFight>
+</Properties>
