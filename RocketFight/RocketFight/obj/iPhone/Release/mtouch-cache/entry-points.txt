@@ -1,0 +1,8 @@
+Function=xamarin_timezone_get_data
+	/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_get_block_descriptor
+	/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll

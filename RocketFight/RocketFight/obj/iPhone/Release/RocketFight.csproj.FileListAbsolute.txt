@@ -1,0 +1,11 @@
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/bin/iPhone/Release/RocketFight.exe
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/bin/iPhone/Release/RocketFight.pdb
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/coremlc/_PartialAppManifest.items
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/optimized/
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/RocketFight.csproj.CoreCompileInputs.cache
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/RocketFight.exe
+/Users/dariusbuhai/Desktop/Programs/VisualStudioProjects/RocketFight/RocketFight/obj/iPhone/Release/RocketFight.pdb

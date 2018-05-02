@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		35pt4kTCxje5/9TKgD7cFsubPjs=
+		2NVF2ouXbZDxExyK651PCJtkfKU=
 		</data>
 		<key>CharacterSetupViewController.nib</key>
 		<data>
@@ -98,15 +98,15 @@
 		</data>
 		<key>RocketFight.aotdata.arm64</key>
 		<data>
-		uD5fYRe4XUeMwMoiycj+mhnJrPM=
+		sjvvHKJJacWStkiyZVVIagT39B8=
 		</data>
 		<key>RocketFight.exe</key>
 		<data>
-		YUuhXmfDH/jdEjsOCKDL2Ldjb7Y=
+		4AH860lBfIdsBPMFKxTwP8lguxs=
 		</data>
 		<key>RocketFight.pdb</key>
 		<data>
-		385o794yZBqOOXVrCSydVNu6mEA=
+		BpyU043Ym0YMHiBxx7XJ7V7+jBw=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>libRocketFight.exe.dylib</key>
 		<data>
-		faoM8GiJ0BNEJpJD9a6mb11bGZg=
+		DtLeUd4MdB+kgaqmPVVKpWIebAE=
 		</data>
 		<key>libSystem.dll.dylib</key>
 		<data>
@@ -202,11 +202,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			35pt4kTCxje5/9TKgD7cFsubPjs=
+			2NVF2ouXbZDxExyK651PCJtkfKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			cyQ5ev0M7jHRO3+2eRJpLhXoi30DCP88wDADZaU1yzU=
+			m7Q2pafBLlpQ8Tk0V5M8z748hqQRmNESuC4akuM5MwE=
 			</data>
 		</dict>
 		<key>CharacterSetupViewController.nib</key>
@@ -422,33 +422,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uD5fYRe4XUeMwMoiycj+mhnJrPM=
+			sjvvHKJJacWStkiyZVVIagT39B8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KyRSTjk10RGXEGZ9QIkiOPDan8kEK94uoRRmOYgfSek=
+			FjQ8RtIM4Qkw82rJvmQkeGLGgv3lN+pJeOKgWIrK654=
 			</data>
 		</dict>
 		<key>RocketFight.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YUuhXmfDH/jdEjsOCKDL2Ldjb7Y=
+			4AH860lBfIdsBPMFKxTwP8lguxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			hertuIaWwWMb9QMnTGKzHGGQjkjH9VRIGcRhANXnh0A=
+			rAXf+QeoizXmTp1lkssS3gQmZIulzd3nnqRVSkPaxPk=
 			</data>
 		</dict>
 		<key>RocketFight.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			385o794yZBqOOXVrCSydVNu6mEA=
+			BpyU043Ym0YMHiBxx7XJ7V7+jBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AuXnMAJ2i8VvCptjw330onzT7hGFQMng5BrvvtYH2fs=
+			kvNX69pqlaXlyWnEZh9/mjU56UZ9Bs1RZacqDgqOOk4=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -565,11 +565,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			faoM8GiJ0BNEJpJD9a6mb11bGZg=
+			DtLeUd4MdB+kgaqmPVVKpWIebAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5799q5SSPmLUhtp2eF93HyC5oEJeOQ0jNGMvhqH5e7A=
+			NKZGBtNI0SeW97tTIgIxYHGMDJXIRkkhk8a5o0HOa5s=
 			</data>
 		</dict>
 		<key>libSystem.dll.dylib</key>

@@ -9734,41 +9734,43 @@ Lme_31:
 	.no_dead_strip RocketFight_Obstacles_GenerateBackground
 RocketFight_Obstacles_GenerateBackground:
 .loc 6 83 0 prologue_end
-.word 0xa9bc7bfd
+.word 0xa9b47bfd
 .word 0x910003fd
-.word 0xa9016bb9
-.word 0xf90013a0
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
 ldr x16, [x16, #1168]
-.word 0xf90017b0
+.word 0xf9001bb0
 .word 0xf9400a11
-.word 0xf9001bb1
+.word 0xf9001fb1
 .word 0xd280001a
 .word 0xd2800019
-.word 0xf94017b1
-.word 0xf9403e31
+.word 0xd2800018
+.word 0xf9401bb1
+.word 0xf9404631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405e31
+.word 0xf9401bb1
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 6 84 0
-.word 0xf94017b1
-.word 0xf9406e31
+.word 0xf9401bb1
+.word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd280001a
+.word 0xd2800019
 .word 0x14000026
 .loc 6 85 0
-.word 0xf94017b1
-.word 0xf9408631
+.word 0xf9401bb1
+.word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -9781,12 +9783,12 @@ adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
 ldr x0, [x16, #1176]
 .word 0xf9400000
-.word 0xaa1a03e1
-.word 0x93407f41
+.word 0xaa1903e1
+.word 0x93407f21
 .word 0xb9801803
 .word 0xeb01007f
 .word 0x10000011
-.word 0x54000669
+.word 0x54001ae9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
@@ -9795,50 +9797,226 @@ ldr x0, [x16, #1176]
 .word 0xf9400042
 .word 0xf9416c50
 .word 0xd63f0200
-.word 0xf94017b1
-.word 0xf940ee31
+.word 0xf9401bb1
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 6 84 0
-.word 0xf94017b1
-.word 0xf940fe31
+.word 0xf9401bb1
+.word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x11000740
-.word 0xaa0003fa
-.word 0xf9401bb1
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9412a31
+.word 0xf9401bb1
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
+.word 0xaa1903e0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
 ldr x0, [x16, #1184]
 .word 0xb9800000
-.word 0x6b00035f
+.word 0x6b00033f
 .word 0x9a9fa7e0
 .word 0x53001c00
-.word 0xaa0003f9
-.word 0xaa1903e0
+.word 0xaa0003f8
+.word 0xaa1803e0
 .word 0x35fff920
-.loc 6 86 0
-.word 0xf94017b1
-.word 0xf9416631
+.loc 6 87 0
+.word 0xf9401bb1
+.word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9417631
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #1192]
+.word 0xf9005fa0
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #528]
+bl _p_19
+.word 0xf9405fa1
+.word 0xf9005ba0
+bl _p_32
+.word 0xf9401bb1
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa9416bb9
+.word 0xf9405ba0
+.word 0xaa0003fa
+.loc 6 88 0
+.word 0xf9401bb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf90053a0
+.word 0x92800060
+.word 0xf2bfffe0
+.word 0x92800060
+.word 0xf2bfffe0
+bl _p_39
+.word 0xfd0057a0
+.word 0xf9401bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xfd4057a0
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9411830
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9421a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 89 0
+.word 0xf9401bb1
+.word 0xf9422a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9004fa0
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #536]
+.word 0xf9400000
+.word 0xb9802000
+.word 0x11019000
+.word 0x1e220000
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #536]
+.word 0xf9400000
+.word 0xb9802400
+.word 0x1e220001
+.word 0x9101e3a0
+.word 0xd2800000
+.word 0xf9003fa0
+.word 0xf90043a0
+.word 0x9101e3a0
+bl _p_24
+.word 0x9101e3a0
+.word 0x910163a0
+.word 0xf9403fa0
+.word 0xf9002fa0
+.word 0xf94043a0
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa1
+.word 0xaa0103e0
+.word 0x910163a2
+.word 0xfd402fa0
+.word 0xfd4033a1
+.word 0xf9400021
+.word 0xf9419430
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf942d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 90 0
+.word 0xf9401bb1
+.word 0xf942e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9004ba0
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #536]
+.word 0xf9400000
+.word 0xb9802001
+.word 0x531f7c20
+.word 0xb010000
+.word 0x13017c00
+.word 0x1e220000
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #536]
+.word 0xf9400000
+.word 0xb9802401
+.word 0x531f7c20
+.word 0xb010000
+.word 0x13017c00
+.word 0x1e220001
+.word 0x9101a3a0
+.word 0xd2800000
+.word 0xf90037a0
+.word 0xf9003ba0
+.word 0x9101a3a0
+bl _p_28
+.word 0x9101a3a0
+.word 0x910123a0
+.word 0xf94037a0
+.word 0xf90027a0
+.word 0xf9403ba0
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xaa0103e0
+.word 0x910123a2
+.word 0xfd4027a0
+.word 0xfd402ba1
+.word 0xf9400021
+.word 0xf9412030
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf943a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 91 0
+.word 0xf9401bb1
+.word 0xf943b631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_RocketFight_got@PAGE+0
+add x16, x16, mono_aot_RocketFight_got@PAGEOFF
+ldr x0, [x16, #224]
+.word 0xf9400002
+.word 0xaa1a03e1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9416c50
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf943ea31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 92 0
+.word 0xf9401bb1
+.word 0xf943fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9440a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
 .word 0xd2800fe0
 .word 0xaa1103e1
@@ -9849,7 +10027,7 @@ Lme_32:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_AddBonusElem
 RocketFight_Obstacles_AddBonusElem:
-.loc 6 89 0 prologue_end
+.loc 6 95 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -9858,7 +10036,7 @@ RocketFight_Obstacles_AddBonusElem:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1200]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9879,7 +10057,7 @@ ldr x16, [x16, #1192]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 90 0
+.loc 6 96 0
 .word 0xf94023b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -9906,7 +10084,7 @@ ldr x0, [x16, #1112]
 .word 0xf94057a0
 .word 0xf90053a0
 .word 0xaa0003fa
-.loc 6 92 0
+.loc 6 98 0
 .word 0xf94023b1
 .word 0xf940e231
 .word 0xb4000051
@@ -9921,7 +10099,7 @@ ldr x0, [x16, #1112]
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0x34000140
-.loc 6 93 0
+.loc 6 99 0
 .word 0xf94023b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -9929,10 +10107,10 @@ ldr x0, [x16, #1112]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1208]
 .word 0xaa0003f9
 .word 0x14000009
-.loc 6 95 0
+.loc 6 101 0
 .word 0xf94023b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -9940,9 +10118,9 @@ ldr x0, [x16, #1200]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1208]
+ldr x0, [x16, #1216]
 .word 0xaa0003f9
-.loc 6 96 0
+.loc 6 102 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9954,7 +10132,7 @@ ldr x0, [x16, #1208]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1224]
 .word 0xb9800000
 .word 0xd2800081
 .word 0xd280009e
@@ -9964,7 +10142,7 @@ ldr x0, [x16, #1216]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x34000140
-.loc 6 97 0
+.loc 6 103 0
 .word 0xf94023b1
 .word 0xf941ae31
 .word 0xb4000051
@@ -9973,9 +10151,9 @@ ldr x0, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1224]
 .word 0xb900001f
-.loc 6 98 0
+.loc 6 104 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9987,12 +10165,12 @@ ldr x0, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10007,12 +10185,12 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10049,7 +10227,7 @@ ldr x1, [x16, #224]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x340003c0
-.loc 6 99 0
+.loc 6 105 0
 .word 0xf94023b1
 .word 0xf942e231
 .word 0xb4000051
@@ -10057,12 +10235,12 @@ ldr x1, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10081,7 +10259,7 @@ ldr x1, [x16, #1216]
 .word 0xf9434631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 100 0
+.loc 6 106 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -10093,13 +10271,13 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 .word 0xf9007fa0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1224]
 .word 0xb9800000
 .word 0xf90077a0
 .word 0xaa1903e0
@@ -10122,7 +10300,7 @@ bl _p_32
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 101 0
+.loc 6 107 0
 .word 0xf94023b1
 .word 0xf943ea31
 .word 0xb4000051
@@ -10130,12 +10308,12 @@ bl _p_32
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10156,7 +10334,7 @@ ldr x1, [x16, #1216]
 .word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 102 0
+.loc 6 108 0
 .word 0xf94023b1
 .word 0xf9446631
 .word 0xb4000051
@@ -10164,12 +10342,12 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10211,7 +10389,7 @@ bl _p_76
 .word 0xf9452231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 103 0
+.loc 6 109 0
 .word 0xf94023b1
 .word 0xf9453231
 .word 0xb4000051
@@ -10219,12 +10397,12 @@ bl _p_76
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10264,7 +10442,7 @@ ldr x0, [x16, #1112]
 .word 0xf945e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 104 0
+.loc 6 110 0
 .word 0xf94023b1
 .word 0xf945f631
 .word 0xb4000051
@@ -10272,12 +10450,12 @@ ldr x0, [x16, #1112]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10323,7 +10501,7 @@ bl _p_24
 .word 0xf946c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 105 0
+.loc 6 111 0
 .word 0xf94023b1
 .word 0xf946d631
 .word 0xb4000051
@@ -10331,12 +10509,12 @@ bl _p_24
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10351,12 +10529,12 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10379,12 +10557,12 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10428,7 +10606,7 @@ bl _p_41
 .word 0xf9484e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 106 0
+.loc 6 112 0
 .word 0xf94023b1
 .word 0xf9485e31
 .word 0xb4000051
@@ -10436,12 +10614,12 @@ bl _p_41
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10472,7 +10650,7 @@ ldr x1, [x16, #1216]
 .word 0xf948f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 107 0
+.loc 6 113 0
 .word 0xf94023b1
 .word 0xf9490231
 .word 0xb4000051
@@ -10480,12 +10658,12 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801802
@@ -10516,7 +10694,7 @@ ldr x1, [x16, #1216]
 .word 0xf9499631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 108 0
+.loc 6 114 0
 .word 0xf94023b1
 .word 0xf949a631
 .word 0xb4000051
@@ -10529,12 +10707,12 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9400000
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1224]
 .word 0xb9800021
 .word 0x93407c21
 .word 0xb9801803
@@ -10553,7 +10731,7 @@ ldr x1, [x16, #1216]
 .word 0xf94a1a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 109 0
+.loc 6 115 0
 .word 0xf94023b1
 .word 0xf94a2a31
 .word 0xb4000051
@@ -10561,15 +10739,15 @@ ldr x1, [x16, #1216]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1224]
 .word 0xb9800000
 .word 0x11000401
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1224]
 .word 0xb9000001
-.loc 6 110 0
+.loc 6 116 0
 .word 0xf94023b1
 .word 0xf94a5e31
 .word 0xb4000051
@@ -10593,7 +10771,7 @@ Lme_33:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_InitializeBackground
 RocketFight_Obstacles_InitializeBackground:
-.loc 6 117 0 prologue_end
+.loc 6 123 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -10604,7 +10782,7 @@ RocketFight_Obstacles_InitializeBackground:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1240]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -10626,7 +10804,7 @@ ldr x16, [x16, #1232]
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 118 0
+.loc 6 124 0
 .word 0xf94027b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -10637,19 +10815,19 @@ adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
 ldr x0, [x16, #1184]
 .word 0xb900001f
-.loc 6 119 0
+.loc 6 125 0
 .word 0xf94027b1
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
 .word 0x14000265
-.loc 6 120 0
+.loc 6 126 0
 .word 0xf94027b1
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 121 0
+.loc 6 127 0
 .word 0xf94027b1
 .word 0xf940d631
 .word 0xb4000051
@@ -10675,7 +10853,7 @@ ldr x0, [x16, #1112]
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003f8
-.loc 6 122 0
+.loc 6 128 0
 .word 0xf94027b1
 .word 0xf9413631
 .word 0xb4000051
@@ -10702,7 +10880,7 @@ ldr x0, [x16, #1176]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x34000620
-.loc 6 123 0
+.loc 6 129 0
 .word 0xf94027b1
 .word 0xf9419a31
 .word 0xb4000051
@@ -10717,7 +10895,7 @@ ldr x0, [x16, #1176]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1240]
+ldr x0, [x16, #1248]
 .word 0xf9005fa0
 .word 0xaa1803e0
 
@@ -10755,7 +10933,7 @@ bl _p_32
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 124 0
+.loc 6 130 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10804,7 +10982,7 @@ bl _p_76
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 125 0
+.loc 6 131 0
 .word 0xf94027b1
 .word 0xf9431631
 .word 0xb4000051
@@ -10853,7 +11031,7 @@ bl _p_77
 .word 0xf943c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 126 0
+.loc 6 132 0
 .word 0xf94027b1
 .word 0xf943d231
 .word 0xb4000051
@@ -10914,7 +11092,7 @@ bl _p_39
 .word 0xf944aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 127 0
+.loc 6 133 0
 .word 0xf94027b1
 .word 0xf944ba31
 .word 0xb4000051
@@ -10949,7 +11127,7 @@ bl _p_78
 .word 0xf94053a0
 .word 0x53001c00
 .word 0xaa0003f7
-.loc 6 128 0
+.loc 6 134 0
 .word 0xf94027b1
 .word 0xf9453e31
 .word 0xb4000051
@@ -10963,7 +11141,7 @@ bl _p_78
 .word 0xf9456231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 129 0
+.loc 6 135 0
 .word 0xf94027b1
 .word 0xf9457231
 .word 0xb4000051
@@ -11002,7 +11180,7 @@ bl _p_39
 .word 0xf945f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 130 0
+.loc 6 136 0
 .word 0xf94027b1
 .word 0xf9460631
 .word 0xb4000051
@@ -11095,7 +11273,7 @@ bl _p_41
 .word 0xf9475a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 131 0
+.loc 6 137 0
 .word 0xf94027b1
 .word 0xf9476a31
 .word 0xb4000051
@@ -11135,7 +11313,7 @@ ldr x0, [x16, #1176]
 .word 0xf947f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 132 0
+.loc 6 138 0
 .word 0xf94027b1
 .word 0xf9480231
 .word 0xb4000051
@@ -11175,18 +11353,18 @@ ldr x0, [x16, #1176]
 .word 0xf9488a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 133 0
+.loc 6 139 0
 .word 0xf94027b1
 .word 0xf9489a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004f
-.loc 6 134 0
+.loc 6 140 0
 .word 0xf94027b1
 .word 0xf948ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 135 0
+.loc 6 141 0
 .word 0xf94027b1
 .word 0xf948be31
 .word 0xb4000051
@@ -11230,7 +11408,7 @@ ldr x0, [x16, #1176]
 .word 0xf9495631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 136 0
+.loc 6 142 0
 .word 0xf94027b1
 .word 0xf9496631
 .word 0xb4000051
@@ -11260,12 +11438,12 @@ ldr x0, [x16, #1176]
 .word 0xf949c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 137 0
+.loc 6 143 0
 .word 0xf94027b1
 .word 0xf949d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 138 0
+.loc 6 144 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -11274,7 +11452,7 @@ ldr x0, [x16, #1176]
 .word 0xf949f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 119 0
+.loc 6 125 0
 .word 0xf94027b1
 .word 0xf94a0631
 .word 0xb4000051
@@ -11314,7 +11492,7 @@ ldr x0, [x16, #1184]
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0x35ffb180
-.loc 6 139 0
+.loc 6 145 0
 .word 0xf94027b1
 .word 0xf94a9a31
 .word 0xb4000051
@@ -11339,7 +11517,7 @@ Lme_34:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_InitializeWalls
 RocketFight_Obstacles_InitializeWalls:
-.loc 6 142 0 prologue_end
+.loc 6 148 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -11349,7 +11527,7 @@ RocketFight_Obstacles_InitializeWalls:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1256]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -11365,7 +11543,7 @@ ldr x16, [x16, #1248]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 143 0
+.loc 6 149 0
 .word 0xf9401fb1
 .word 0xf9406e31
 .word 0xb4000051
@@ -11422,7 +11600,7 @@ ldr x1, [x16, #536]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1264]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_30
@@ -11443,7 +11621,7 @@ bl _p_79
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 144 0
+.loc 6 150 0
 .word 0xf9401fb1
 .word 0xf9418631
 .word 0xb4000051
@@ -11486,7 +11664,7 @@ ldr x1, [x16, #536]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1264]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_30
@@ -11507,7 +11685,7 @@ bl _p_79
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 145 0
+.loc 6 151 0
 .word 0xf9401fb1
 .word 0xf9426e31
 .word 0xb4000051
@@ -11563,7 +11741,7 @@ ldr x1, [x16, #536]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1264]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_30
@@ -11584,7 +11762,7 @@ bl _p_79
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 146 0
+.loc 6 152 0
 .word 0xf9401fb1
 .word 0xf9438231
 .word 0xb4000051
@@ -11627,7 +11805,7 @@ ldr x1, [x16, #536]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1264]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_30
@@ -11648,7 +11826,7 @@ bl _p_79
 .word 0xf9400063
 .word 0xf9404470
 .word 0xd63f0200
-.loc 6 147 0
+.loc 6 153 0
 .word 0xf9401fb1
 .word 0xf9446a31
 .word 0xb4000051
@@ -11669,7 +11847,7 @@ Lme_35:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_InitializeGameBonusElems
 RocketFight_Obstacles_InitializeGameBonusElems:
-.loc 6 150 0 prologue_end
+.loc 6 156 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -11678,7 +11856,7 @@ RocketFight_Obstacles_InitializeGameBonusElems:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1272]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -11694,7 +11872,7 @@ ldr x16, [x16, #1264]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 151 0
+.loc 6 157 0
 .word 0xf9401bb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -11702,7 +11880,7 @@ ldr x16, [x16, #1264]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1272]
+ldr x0, [x16, #1280]
 .word 0xf9400000
 .word 0xaa0003fa
 .word 0xaa1a03e0
@@ -11713,7 +11891,7 @@ ldr x0, [x16, #1272]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1288]
 .word 0xf9400000
 .word 0xf9002ba0
 .word 0xeb1f001f
@@ -11746,17 +11924,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1296]
 .word 0xf9001401
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1296]
+ldr x1, [x16, #1304]
 .word 0xf9002001
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1304]
+ldr x1, [x16, #1312]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -11769,14 +11947,14 @@ ldr x1, [x16, #1304]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1272]
+ldr x1, [x16, #1280]
 .word 0xf9000020
 .word 0xaa0003f9
 .word 0xaa1903e0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1312]
+ldr x0, [x16, #1320]
 .word 0xb9800001
 .word 0xaa1903e0
 bl _p_80
@@ -11784,7 +11962,7 @@ bl _p_80
 .word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 152 0
+.loc 6 158 0
 .word 0xf9401bb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -11810,7 +11988,7 @@ Lme_36:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_InitializeObstacles
 RocketFight_Obstacles_InitializeObstacles:
-.loc 6 159 0 prologue_end
+.loc 6 165 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -11818,7 +11996,7 @@ RocketFight_Obstacles_InitializeObstacles:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11834,7 +12012,7 @@ ldr x16, [x16, #1320]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 160 0
+.loc 6 166 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -11846,7 +12024,7 @@ bl _p_81
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 161 0
+.loc 6 167 0
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -11858,7 +12036,7 @@ bl _p_82
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 162 0
+.loc 6 168 0
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -11870,7 +12048,7 @@ bl _p_83
 .word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 163 0
+.loc 6 169 0
 .word 0xf9400fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -11882,7 +12060,7 @@ bl _p_84
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 164 0
+.loc 6 170 0
 .word 0xf9400fb1
 .word 0xf9411631
 .word 0xb4000051
@@ -11894,7 +12072,7 @@ bl _p_85
 .word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 165 0
+.loc 6 171 0
 .word 0xf9400fb1
 .word 0xf9414231
 .word 0xb4000051
@@ -11913,14 +12091,14 @@ Lme_37:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles_RestartObstacles
 RocketFight_Obstacles_RestartObstacles:
-.loc 6 168 0 prologue_end
+.loc 6 174 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11936,7 +12114,7 @@ ldr x16, [x16, #1328]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 170 0
+.loc 6 176 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -11947,7 +12125,7 @@ bl _p_83
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 171 0
+.loc 6 177 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -11973,7 +12151,7 @@ RocketFight_Obstacles__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11994,7 +12172,7 @@ ldr x16, [x16, #1336]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1344]
+ldr x0, [x16, #1352]
 .word 0xd2800c81
 bl _p_7
 .word 0xf9000b40
@@ -12035,7 +12213,7 @@ RocketFight_Obstacles__cctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1360]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -12109,7 +12287,7 @@ bl _p_7
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1232]
 .word 0xf9000001
 .loc 6 41 0
 .word 0xf9400bb1
@@ -12158,7 +12336,7 @@ RocketFight_Players_AddPlayers:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1368]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -12655,7 +12833,7 @@ ldr x0, [x16, #728]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1376]
 .word 0xf9007fa0
 .word 0xaa1903e0
 .word 0x11000720
@@ -12702,7 +12880,7 @@ ldr x0, [x16, #984]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1376]
+ldr x0, [x16, #1384]
 .word 0xf90073a0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
@@ -12858,7 +13036,7 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xb9800002
 .word 0xaa0303e0
 .word 0xaa1903e1
@@ -12882,7 +13060,7 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xb9800002
 .word 0xaa0303e0
 .word 0xaa1903e1
@@ -13000,7 +13178,7 @@ RocketFight_Players_RestartPlayers:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1408]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -13296,7 +13474,7 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xb9800002
 .word 0xaa0303e0
 .word 0xaa1903e1
@@ -13320,7 +13498,7 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xb9800002
 .word 0xaa0303e0
 .word 0xaa1903e1
@@ -13446,7 +13624,7 @@ RocketFight_Players_ToPoz_double:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1416]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13528,7 +13706,7 @@ RocketFight_Players_RotatePlayer_int:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1424]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -13833,7 +14011,7 @@ RocketFight_Players_StartMovingPlayer_int:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13877,7 +14055,7 @@ ldr x0, [x16, #1080]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1432]
+ldr x0, [x16, #1440]
 .word 0xb9800000
 .word 0x1e620000
 .word 0xfd0033a0
@@ -14200,7 +14378,7 @@ RocketFight_Players_StopMovingPlayer_int:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14320,7 +14498,7 @@ RocketFight_Players__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1456]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14404,7 +14582,7 @@ RocketFight_Players__cctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1464]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -14460,7 +14638,7 @@ ldr x0, [x16, #984]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1472]
 .word 0xd2800041
 bl _p_7
 .word 0xaa0003e1
@@ -14478,7 +14656,7 @@ ldr x0, [x16, #968]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1472]
 .word 0xd2800041
 bl _p_7
 .word 0xaa0003e1
@@ -14496,7 +14674,7 @@ ldr x0, [x16, #976]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1472]
 .word 0xd2800041
 bl _p_7
 .word 0xaa0003e1
@@ -14514,7 +14692,7 @@ ldr x0, [x16, #952]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1472]
 .word 0xd2800041
 bl _p_7
 .word 0xaa0003e1
@@ -14598,14 +14776,14 @@ ldr x0, [x16, #544]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1472]
+ldr x0, [x16, #1480]
 .word 0xd2800041
 bl _p_7
 .word 0xaa0003e1
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1480]
+ldr x0, [x16, #1488]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf942ce31
@@ -14629,7 +14807,7 @@ RocketFight_InitializationViewController__ctor_intptr:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14682,7 +14860,7 @@ RocketFight_InitializationViewController_ViewDidLoad:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14734,7 +14912,7 @@ RocketFight_InitializationViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14787,7 +14965,7 @@ RocketFight_InitializationViewController_StartGameAction:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14915,7 +15093,7 @@ RocketFight_InitializationViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1528]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14958,7 +15136,7 @@ RocketFight_CharacterSetupViewController__ctor_intptr:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1536]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15012,7 +15190,7 @@ RocketFight_CharacterSetupViewController_ViewDidLoad:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15148,7 +15326,7 @@ RocketFight_CharacterSetupViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15201,7 +15379,7 @@ RocketFight_CharacterSetupViewController_get_PlayerOneView:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15240,7 +15418,7 @@ RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15291,7 +15469,7 @@ RocketFight_CharacterSetupViewController_get_PlayerTwoView:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15330,7 +15508,7 @@ RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1584]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15381,7 +15559,7 @@ RocketFight_CharacterSetupViewController_get_StartGameButton:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1592]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15420,7 +15598,7 @@ RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15473,7 +15651,7 @@ RocketFight_CharacterSetupViewController_PlayerOneOption1_UIKit_UIButton_UIKit_U
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1608]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15535,7 +15713,7 @@ RocketFight_CharacterSetupViewController_PlayerOneOption2_UIKit_UIButton:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1616]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15565,7 +15743,7 @@ ldr x0, [x16, #240]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x2, [x16, #1616]
+ldr x2, [x16, #1624]
 .word 0xaa0303e0
 .word 0xd2800001
 .word 0xf9400063
@@ -15597,7 +15775,7 @@ RocketFight_CharacterSetupViewController_PlayerTwoOption1_UIKit_UIButton:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1632]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15659,7 +15837,7 @@ RocketFight_CharacterSetupViewController_PlayerTwoOption2_UIKit_UIButton:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1640]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15689,7 +15867,7 @@ ldr x0, [x16, #240]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x2, [x16, #1640]
+ldr x2, [x16, #1648]
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf9400063
@@ -15722,7 +15900,7 @@ RocketFight_CharacterSetupViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1656]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15977,7 +16155,7 @@ RocketFight_SettingsViewController__ctor_intptr:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1664]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16031,7 +16209,7 @@ RocketFight_SettingsViewController_ViewDidLoad:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1672]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16109,7 +16287,7 @@ bl _p_98
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xb9800000
 bl _p_97
 .word 0xf90023a0
@@ -16143,7 +16321,7 @@ bl _p_99
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xb9800000
 bl _p_97
 .word 0xf9001ba0
@@ -16187,7 +16365,7 @@ RocketFight_SettingsViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1680]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16240,7 +16418,7 @@ RocketFight_SettingsViewController_get_PlayerLifes:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1688]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16279,7 +16457,7 @@ RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16330,7 +16508,7 @@ RocketFight_SettingsViewController_get_PlayerMunition:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16369,7 +16547,7 @@ RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16420,7 +16598,7 @@ RocketFight_SettingsViewController_get_Sensitivity:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -16459,7 +16637,7 @@ RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16511,7 +16689,7 @@ RocketFight_SettingsViewController_PlayerBulletsChanged_UIKit_UISlider:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1736]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16549,7 +16727,7 @@ ldr x16, [x16, #1728]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xb9000001
 .loc 12 29 0
 .word 0xf94013b1
@@ -16566,7 +16744,7 @@ bl _p_98
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xb9800000
 bl _p_97
 .word 0xf90023a0
@@ -16610,7 +16788,7 @@ RocketFight_SettingsViewController_PlayerLifesChanged_UIKit_UISlider:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1744]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16648,7 +16826,7 @@ ldr x16, [x16, #1736]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xb9000001
 .loc 12 23 0
 .word 0xf94013b1
@@ -16665,7 +16843,7 @@ bl _p_99
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xb9800000
 bl _p_97
 .word 0xf90023a0
@@ -16709,7 +16887,7 @@ RocketFight_SettingsViewController_SensitivityChanged_UIKit_UISlider:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16809,7 +16987,7 @@ RocketFight_SettingsViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1760]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -17061,7 +17239,7 @@ RocketFight_Application_GameSettings__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1768]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17093,7 +17271,7 @@ RocketFight_Application_GameSettings__cctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1776]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -17113,7 +17291,7 @@ ldr x16, [x16, #1768]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1312]
+ldr x0, [x16, #1320]
 .word 0xd282ee1e
 .word 0xb900001e
 .loc 1 19 0
@@ -17125,7 +17303,7 @@ ldr x0, [x16, #1312]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1776]
+ldr x0, [x16, #1784]
 .word 0xd281771e
 .word 0xb900001e
 .word 0xf9400bb1
@@ -17147,7 +17325,7 @@ RocketFight_Application_PlayerSettings__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17179,7 +17357,7 @@ RocketFight_Application_PlayerSettings__cctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1800]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -17199,7 +17377,7 @@ ldr x16, [x16, #1792]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1400]
 .word 0xd28000de
 .word 0xb900001e
 .loc 1 25 0
@@ -17211,7 +17389,7 @@ ldr x0, [x16, #1392]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1392]
 .word 0xd28000fe
 .word 0xb900001e
 .loc 1 26 0
@@ -17223,7 +17401,7 @@ ldr x0, [x16, #1384]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1432]
+ldr x0, [x16, #1440]
 .word 0xd280015e
 .word 0xb900001e
 .loc 1 27 0
@@ -17283,7 +17461,7 @@ RocketFight_GameScene_DefaultSizes__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17396,7 +17574,7 @@ RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_Sprite
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1816]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -17482,7 +17660,7 @@ ldr x1, [x16, #224]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1816]
+ldr x0, [x16, #1824]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_30
@@ -17523,7 +17701,7 @@ bl _p_104
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1824]
+ldr x0, [x16, #1832]
 .word 0xf900a7a0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
@@ -17685,17 +17863,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1832]
+ldr x1, [x16, #1840]
 .word 0xf9001401
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1840]
+ldr x1, [x16, #1848]
 .word 0xf9002001
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1848]
+ldr x1, [x16, #1856]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -17728,7 +17906,7 @@ bl _p_42
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1864]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -17764,7 +17942,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1864]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -17788,7 +17966,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1864]
+ldr x1, [x16, #1872]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -17845,7 +18023,7 @@ ldr x0, [x16, #568]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1880]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_30
@@ -17886,7 +18064,7 @@ bl _p_105
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1824]
+ldr x0, [x16, #1832]
 .word 0xf900a3a0
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
@@ -18048,17 +18226,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1880]
+ldr x1, [x16, #1888]
 .word 0xf9001401
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1896]
 .word 0xf9002001
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1896]
+ldr x1, [x16, #1904]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -18081,7 +18259,7 @@ bl _p_42
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1912]
 bl _p_19
 .word 0xf9008ba0
 .word 0xd280a8e1
@@ -18121,17 +18299,17 @@ bl _p_30
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1912]
+ldr x1, [x16, #1920]
 .word 0xf9001401
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1920]
+ldr x1, [x16, #1928]
 .word 0xf9002001
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1928]
+ldr x1, [x16, #1936]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -18141,7 +18319,7 @@ ldr x1, [x16, #1928]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1776]
+ldr x1, [x16, #1784]
 .word 0xb9800021
 bl _p_42
 .word 0xf94033b1
@@ -18229,7 +18407,7 @@ bl _p_86
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1864]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18253,7 +18431,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1864]
+ldr x1, [x16, #1872]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18295,7 +18473,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1864]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18331,7 +18509,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1200]
+ldr x1, [x16, #1208]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18355,7 +18533,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1208]
+ldr x1, [x16, #1216]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18411,7 +18589,7 @@ bl _p_103
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x1, [x16, #1200]
+ldr x1, [x16, #1208]
 bl _p_103
 .word 0x53001c00
 .word 0xf9008ba0
@@ -18518,7 +18696,7 @@ RocketFight_GameScene_CollisionDelegate_DidBeginContact_SpriteKit_SKPhysicsConta
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18667,7 +18845,7 @@ RocketFight_GameScene_CollisionDelegate__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18700,7 +18878,7 @@ RocketFight_GameScene__c__DisplayClass24_0__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18736,7 +18914,7 @@ RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__0_object_System_Timer
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1968]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18785,7 +18963,7 @@ RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__1_object_System_Timer
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1976]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18837,7 +19015,7 @@ RocketFight_Obstacles_Obstacle__ctor_int_int_int_int:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1984]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -18943,7 +19121,7 @@ RocketFight_Obstacles__c__cctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1992]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -18954,7 +19132,7 @@ ldr x16, [x16, #1984]
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #2000]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_30
@@ -18968,7 +19146,7 @@ bl _p_112
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1288]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9408231
@@ -18989,7 +19167,7 @@ RocketFight_Obstacles__c__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2008]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19015,7 +19193,7 @@ Lme_70:
 	.align 4
 	.no_dead_strip RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs
 RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs:
-.loc 6 151 0 prologue_end
+.loc 6 157 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -19024,7 +19202,7 @@ RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_E
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2016]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19064,7 +19242,7 @@ RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2024]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19099,7 +19277,7 @@ RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__CollisionHappendb__
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2032]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19141,7 +19319,7 @@ RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19176,7 +19354,7 @@ RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__CollisionHappendb__
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2048]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19221,7 +19399,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19319,7 +19497,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -19543,19 +19721,19 @@ unwind_info:
 	.byte 0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38,19,12
 	.byte 31,0,68,14,224,1,157,28,158,27,68,13,29,68,153,26,154,25,24,12,31,0,68,14,240,1,157,30,158,29,68,13
 	.byte 29,68,151,28,152,27,68,153,26,154,25,17,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,152,26,22,12,31
-	.byte 0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28,18,12,31,0,68,14,64,157,8,158,7,68
-	.byte 13,29,68,153,6,154,5,29,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,149,30,150,29,68,151,28,152,27
-	.byte 68,153,26,154,25,32,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152
-	.byte 24,153,23,68,154,22,27,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24,153,23,68
-	.byte 154,22,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,24,12,31,0,68,14,192,2,157,40,158,39,68
-	.byte 13,29,68,151,38,152,37,68,153,36,154,35,24,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24,152,23
-	.byte 68,153,22,154,21,24,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18,154,17,19,12
-	.byte 31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23,14,12,31,0,68,14,128,1,157,16,158,15,68,13
-	.byte 29,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,23,12,31,0,68,14,96,157,12,158,11,68,13,29
-	.byte 68,151,10,152,9,68,153,8,154,7,34,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,147,42,148,41,68,149
-	.byte 40,150,39,68,151,38,152,37,68,153,36,154,35,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7
-	.byte 68,152,6,13,12,31,0,68,14,112,157,14,158,13,68,13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68
-	.byte 153,6
+	.byte 0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28,22,12,31,0,68,14,192,1,157,24,158,23
+	.byte 68,13,29,68,152,22,153,21,68,154,20,29,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,149,30,150,29,68
+	.byte 151,28,152,27,68,153,26,154,25,32,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26
+	.byte 151,25,68,152,24,153,23,68,154,22,27,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152
+	.byte 24,153,23,68,154,22,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,24,12,31,0,68,14,192,2,157
+	.byte 40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35,24,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68
+	.byte 151,24,152,23,68,153,22,154,21,24,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18
+	.byte 154,17,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23,14,12,31,0,68,14,128,1,157,16
+	.byte 158,15,68,13,29,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,23,12,31,0,68,14,96,157,12,158
+	.byte 11,68,13,29,68,151,10,152,9,68,153,8,154,7,34,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,147,42
+	.byte 148,41,68,149,40,150,39,68,151,38,152,37,68,153,36,154,35,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68
+	.byte 150,8,151,7,68,152,6,13,12,31,0,68,14,112,157,14,158,13,68,13,29,16,12,31,0,68,14,64,157,8,158,7
+	.byte 68,13,29,68,153,6
 
 .text
 	.align 4
@@ -19566,933 +19744,933 @@ plt_SpriteKit_SKNode_FromFile_RocketFight_GameScene_string:
 _p_1:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2080]
 br x16
-.word 2130
+.word 2142
 	.no_dead_strip plt_RocketFight_Application_ConfigureGameScene
 plt_RocketFight_Application_ConfigureGameScene:
 _p_2:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2088]
 br x16
-.word 2142
+.word 2154
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___string_string
 plt_UIKit_UIApplication_Main_string___string_string:
 _p_3:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2096]
 br x16
-.word 2144
+.word 2156
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_4:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2104]
 br x16
-.word 2149
+.word 2161
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_5:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2112]
 br x16
-.word 2154
+.word 2166
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_6:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2120]
 br x16
-.word 2193
+.word 2205
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2128]
 br x16
-.word 2221
+.word 2233
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_8:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2136]
 br x16
-.word 2229
+.word 2241
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_9:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2144]
 br x16
-.word 2234
+.word 2246
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_10:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2152]
 br x16
-.word 2239
+.word 2251
 	.no_dead_strip plt_RocketFight_GameViewController_get_RocketFightController
 plt_RocketFight_GameViewController_get_RocketFightController:
 _p_11:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2160]
 br x16
-.word 2244
+.word 2256
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_12:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2168]
 br x16
-.word 2246
+.word 2258
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_13:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2176]
 br x16
-.word 2251
+.word 2263
 	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
 plt_UIKit_UIDevice_get_UserInterfaceIdiom:
 _p_14:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2184]
 br x16
-.word 2256
+.word 2268
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_15:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2192]
 br x16
-.word 2261
+.word 2273
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidAppear_bool
 plt_UIKit_UIViewController_ViewDidAppear_bool:
 _p_16:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2200]
 br x16
-.word 2266
+.word 2278
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_17:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2208]
 br x16
-.word 2271
+.word 2283
 	.no_dead_strip plt_RocketFight_GameViewController_set_RocketFightController_SpriteKit_SKView
 plt_RocketFight_GameViewController_set_RocketFightController_SpriteKit_SKView:
 _p_18:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2216]
 br x16
-.word 2276
+.word 2288
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_19:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2224]
 br x16
-.word 2278
+.word 2290
 	.no_dead_strip plt_System_Timers_Timer__ctor_double
 plt_System_Timers_Timer__ctor_double:
 _p_20:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2232]
 br x16
-.word 2310
+.word 2322
 	.no_dead_strip plt_System_Timers_Timer_set_AutoReset_bool
 plt_System_Timers_Timer_set_AutoReset_bool:
 _p_21:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2240]
 br x16
-.word 2315
+.word 2327
 	.no_dead_strip plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler
 plt_System_Timers_Timer_add_Elapsed_System_Timers_ElapsedEventHandler:
 _p_22:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2248]
 br x16
-.word 2320
+.word 2332
 	.no_dead_strip plt_System_Timers_Timer_Start
 plt_System_Timers_Timer_Start:
 _p_23:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2256]
 br x16
-.word 2325
+.word 2337
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_single_single
 plt_CoreGraphics_CGSize__ctor_single_single:
 _p_24:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2264]
 br x16
-.word 2330
+.word 2342
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_25:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2272]
 br x16
-.word 2335
+.word 2347
 	.no_dead_strip plt_SpriteKit_SKSpriteNode__ctor
 plt_SpriteKit_SKSpriteNode__ctor:
 _p_26:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2280]
 br x16
-.word 2370
+.word 2382
 	.no_dead_strip plt_UIKit_UIColor_get_White
 plt_UIKit_UIColor_get_White:
 _p_27:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2288]
 br x16
-.word 2375
+.word 2387
 	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_single_single
 plt_CoreGraphics_CGPoint__ctor_single_single:
 _p_28:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2296]
 br x16
-.word 2380
+.word 2392
 	.no_dead_strip plt_SpriteKit_SKNode_AddNodes_SpriteKit_SKNode__
 plt_SpriteKit_SKNode_AddNodes_SpriteKit_SKNode__:
 _p_29:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2304]
 br x16
-.word 2385
+.word 2397
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_30:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2312]
 br x16
-.word 2390
+.word 2402
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_31:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2320]
 br x16
-.word 2398
+.word 2410
 	.no_dead_strip plt_SpriteKit_SKSpriteNode__ctor_string
 plt_SpriteKit_SKSpriteNode__ctor_string:
 _p_32:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2328]
 br x16
-.word 2403
+.word 2415
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_33:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2336]
 br x16
-.word 2408
+.word 2420
 	.no_dead_strip plt_System_Math_Cos_double
 plt_System_Math_Cos_double:
 _p_34:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2344]
 br x16
-.word 2413
+.word 2425
 	.no_dead_strip plt_System_Math_Sin_double
 plt_System_Math_Sin_double:
 _p_35:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2352]
 br x16
-.word 2418
+.word 2430
 	.no_dead_strip plt_CoreGraphics_CGVector__ctor_System_nfloat_System_nfloat
 plt_CoreGraphics_CGVector__ctor_System_nfloat_System_nfloat:
 _p_36:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2360]
 br x16
-.word 2423
+.word 2435
 	.no_dead_strip plt_RocketFight_GameScene_ChangeMunitionIndicator_int_int
 plt_RocketFight_GameScene_ChangeMunitionIndicator_int_int:
 _p_37:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2368]
 br x16
-.word 2428
+.word 2440
 	.no_dead_strip plt_RocketFight_GameScene__c__DisplayClass24_0__ctor
 plt_RocketFight_GameScene__c__DisplayClass24_0__ctor:
 _p_38:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2376]
 br x16
-.word 2430
+.word 2442
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_39:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2384]
 br x16
-.word 2432
+.word 2444
 	.no_dead_strip plt_CoreGraphics_CGPoint_set_X_System_nfloat
 plt_CoreGraphics_CGPoint_set_X_System_nfloat:
 _p_40:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2392]
 br x16
-.word 2437
+.word 2449
 	.no_dead_strip plt_SpriteKit_SKPhysicsBody_Create_SpriteKit_SKTexture_CoreGraphics_CGSize
 plt_SpriteKit_SKPhysicsBody_Create_SpriteKit_SKTexture_CoreGraphics_CGSize:
 _p_41:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2400]
 br x16
-.word 2442
+.word 2454
 	.no_dead_strip plt_RocketFight_GameScene_CreateTimer_System_Timers_ElapsedEventHandler_int
 plt_RocketFight_GameScene_CreateTimer_System_Timers_ElapsedEventHandler_int:
 _p_42:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2408]
 br x16
-.word 2447
+.word 2459
 	.no_dead_strip plt_RocketFight_GameScene_AddLifeIndicators
 plt_RocketFight_GameScene_AddLifeIndicators:
 _p_43:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2416]
 br x16
-.word 2449
+.word 2461
 	.no_dead_strip plt_RocketFight_GameScene_AddMunitionIndicator
 plt_RocketFight_GameScene_AddMunitionIndicator:
 _p_44:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2424]
 br x16
-.word 2451
+.word 2463
 	.no_dead_strip plt_RocketFight_GameScene_AddPlayerWinsIndicator
 plt_RocketFight_GameScene_AddPlayerWinsIndicator:
 _p_45:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2432]
 br x16
-.word 2453
+.word 2465
 	.no_dead_strip plt_RocketFight_Players_AddPlayers
 plt_RocketFight_Players_AddPlayers:
 _p_46:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2440]
 br x16
-.word 2455
+.word 2467
 	.no_dead_strip plt_RocketFight_Obstacles_InitializeObstacles
 plt_RocketFight_Obstacles_InitializeObstacles:
 _p_47:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2448]
 br x16
-.word 2457
+.word 2469
 	.no_dead_strip plt_RocketFight_GameScene_CollisionDelegate__ctor
 plt_RocketFight_GameScene_CollisionDelegate__ctor:
 _p_48:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2456]
 br x16
-.word 2459
+.word 2471
 	.no_dead_strip plt_SpriteKit_SKPhysicsWorld_set_ContactDelegate_SpriteKit_ISKPhysicsContactDelegate
 plt_SpriteKit_SKPhysicsWorld_set_ContactDelegate_SpriteKit_ISKPhysicsContactDelegate:
 _p_49:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2464]
 br x16
-.word 2461
+.word 2473
 	.no_dead_strip plt_RocketFight_Players_RestartPlayers
 plt_RocketFight_Players_RestartPlayers:
 _p_50:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2472]
 br x16
-.word 2466
+.word 2478
 	.no_dead_strip plt_RocketFight_GameScene_ChangePlayerWinsIndicator_int_int
 plt_RocketFight_GameScene_ChangePlayerWinsIndicator_int_int:
 _p_51:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2480]
 br x16
-.word 2468
+.word 2480
 	.no_dead_strip plt_RocketFight_GameScene_RestartGame
 plt_RocketFight_GameScene_RestartGame:
 _p_52:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2488]
 br x16
-.word 2470
+.word 2482
 	.no_dead_strip plt_System_Random__ctor
 plt_System_Random__ctor:
 _p_53:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2496]
 br x16
-.word 2472
+.word 2484
 	.no_dead_strip plt_RocketFight_Obstacles__ctor
 plt_RocketFight_Obstacles__ctor:
 _p_54:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2504]
 br x16
-.word 2477
+.word 2489
 	.no_dead_strip plt_RocketFight_Players__ctor
 plt_RocketFight_Players__ctor:
 _p_55:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2512]
 br x16
-.word 2479
+.word 2491
 	.no_dead_strip plt_SpriteKit_SKScene__ctor_intptr
 plt_SpriteKit_SKScene__ctor_intptr:
 _p_56:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2520]
 br x16
-.word 2481
+.word 2493
 	.no_dead_strip plt_UIKit_UIResponder_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
 plt_UIKit_UIResponder_TouchesMoved_Foundation_NSSet_UIKit_UIEvent:
 _p_57:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2528]
 br x16
-.word 2486
+.word 2498
 	.no_dead_strip plt_Foundation_NSSet_GetEnumerator
 plt_Foundation_NSSet_GetEnumerator:
 _p_58:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2536]
 br x16
-.word 2491
+.word 2503
 	.no_dead_strip plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode
 plt_SpriteKit_SKNodeTouches_UITouch_LocationInNode_UIKit_UITouch_SpriteKit_SKNode:
 _p_59:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2544]
 br x16
-.word 2496
+.word 2508
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
 plt_CoreGraphics_CGPoint_get_X:
 _p_60:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2552]
 br x16
-.word 2501
+.word 2513
 	.no_dead_strip plt_System_Convert_ToInt32_double
 plt_System_Convert_ToInt32_double:
 _p_61:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2560]
 br x16
-.word 2506
+.word 2518
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
 plt_CoreGraphics_CGPoint_get_Y:
 _p_62:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2568]
 br x16
-.word 2511
+.word 2523
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_63:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2576]
 br x16
-.word 2516
+.word 2528
 	.no_dead_strip plt_RocketFight_Players_StartMovingPlayer_int
 plt_RocketFight_Players_StartMovingPlayer_int:
 _p_64:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2584]
 br x16
-.word 2521
+.word 2533
 	.no_dead_strip plt_RocketFight_Players_RotatePlayer_int
 plt_RocketFight_Players_RotatePlayer_int:
 _p_65:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2592]
 br x16
-.word 2523
+.word 2535
 	.no_dead_strip plt_RocketFight_GameScene_LaunchBullet_int_int
 plt_RocketFight_GameScene_LaunchBullet_int_int:
 _p_66:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2600]
 br x16
-.word 2525
+.word 2537
 	.no_dead_strip plt__jit_icall_mono_thread_self_abort
 plt__jit_icall_mono_thread_self_abort:
 _p_67:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2608]
 br x16
-.word 2527
+.word 2539
 	.no_dead_strip plt_System_Console_Write_string
 plt_System_Console_Write_string:
 _p_68:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2616]
 br x16
-.word 2552
+.word 2564
 	.no_dead_strip plt_UIKit_UIResponder_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
 plt_UIKit_UIResponder_TouchesEnded_Foundation_NSSet_UIKit_UIEvent:
 _p_69:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2624]
 br x16
-.word 2557
+.word 2569
 	.no_dead_strip plt_RocketFight_Players_StopMovingPlayer_int
 plt_RocketFight_Players_StopMovingPlayer_int:
 _p_70:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2632]
 br x16
-.word 2562
+.word 2574
 	.no_dead_strip plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
 plt_UIKit_UIResponder_TouchesBegan_Foundation_NSSet_UIKit_UIEvent:
 _p_71:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2640]
 br x16
-.word 2564
+.word 2576
 	.no_dead_strip plt_RocketFight_GameScene_DefaultSizes__ctor
 plt_RocketFight_GameScene_DefaultSizes__ctor:
 _p_72:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2648]
 br x16
-.word 2569
+.word 2581
 	.no_dead_strip plt_UIKit_UIColor_get_Black
 plt_UIKit_UIColor_get_Black:
 _p_73:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2656]
 br x16
-.word 2571
+.word 2583
 	.no_dead_strip plt_SpriteKit_SKSpriteNode__ctor_UIKit_UIColor_CoreGraphics_CGSize
 plt_SpriteKit_SKSpriteNode__ctor_UIKit_UIColor_CoreGraphics_CGSize:
 _p_74:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2664]
 br x16
-.word 2576
+.word 2588
 	.no_dead_strip plt_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize
 plt_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize:
 _p_75:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2672]
 br x16
-.word 2581
+.word 2593
 	.no_dead_strip plt_RocketFight_Obstacles_GetRandomPosition
 plt_RocketFight_Obstacles_GetRandomPosition:
 _p_76:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2680]
 br x16
-.word 2586
+.word 2598
 	.no_dead_strip plt_RocketFight_Obstacles_GetRandomSquareSize_int_int
 plt_RocketFight_Obstacles_GetRandomSquareSize_int_int:
 _p_77:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2688]
 br x16
-.word 2588
+.word 2600
 	.no_dead_strip plt_System_Convert_ToBoolean_int
 plt_System_Convert_ToBoolean_int:
 _p_78:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2696]
 br x16
-.word 2590
+.word 2602
 	.no_dead_strip plt_RocketFight_Obstacles_Obstacle__ctor_int_int_int_int
 plt_RocketFight_Obstacles_Obstacle__ctor_int_int_int_int:
 _p_79:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2704]
 br x16
-.word 2595
+.word 2607
 	.no_dead_strip plt_RocketFight_Obstacles_CreateInterval_System_Timers_ElapsedEventHandler_int
 plt_RocketFight_Obstacles_CreateInterval_System_Timers_ElapsedEventHandler_int:
 _p_80:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2712]
 br x16
-.word 2597
+.word 2609
 	.no_dead_strip plt_RocketFight_Obstacles_InitializeWalls
 plt_RocketFight_Obstacles_InitializeWalls:
 _p_81:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2720]
 br x16
-.word 2599
+.word 2611
 	.no_dead_strip plt_RocketFight_Obstacles_GenerateWalls
 plt_RocketFight_Obstacles_GenerateWalls:
 _p_82:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2728]
 br x16
-.word 2601
+.word 2613
 	.no_dead_strip plt_RocketFight_Obstacles_InitializeBackground
 plt_RocketFight_Obstacles_InitializeBackground:
 _p_83:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2736]
 br x16
-.word 2603
+.word 2615
 	.no_dead_strip plt_RocketFight_Obstacles_GenerateBackground
 plt_RocketFight_Obstacles_GenerateBackground:
 _p_84:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2744]
 br x16
-.word 2605
+.word 2617
 	.no_dead_strip plt_RocketFight_Obstacles_InitializeGameBonusElems
 plt_RocketFight_Obstacles_InitializeGameBonusElems:
 _p_85:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2752]
 br x16
-.word 2607
+.word 2619
 	.no_dead_strip plt_RocketFight_GameScene_ChangeLifeIndicator_int_int
 plt_RocketFight_GameScene_ChangeLifeIndicator_int_int:
 _p_86:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2760]
 br x16
-.word 2609
+.word 2621
 	.no_dead_strip plt_RocketFight_Players_ToPoz_double
 plt_RocketFight_Players_ToPoz_double:
 _p_87:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2768]
 br x16
-.word 2611
+.word 2623
 	.no_dead_strip plt_System_Math_Atan2_double_double
 plt_System_Math_Atan2_double_double:
 _p_88:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2776]
 br x16
-.word 2613
+.word 2625
 	.no_dead_strip plt_RocketFight_GameScene_InitializeGame
 plt_RocketFight_GameScene_InitializeGame:
 _p_89:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2784]
 br x16
-.word 2618
+.word 2630
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_get_PlayerTwoView
 plt_RocketFight_CharacterSetupViewController_get_PlayerTwoView:
 _p_90:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2792]
 br x16
-.word 2620
+.word 2632
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_get_PlayerOneView
 plt_RocketFight_CharacterSetupViewController_get_PlayerOneView:
 _p_91:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2800]
 br x16
-.word 2622
+.word 2634
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView
 plt_RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView:
 _p_92:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2808]
 br x16
-.word 2624
+.word 2636
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView
 plt_RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView:
 _p_93:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2816]
 br x16
-.word 2626
+.word 2638
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_get_StartGameButton
 plt_RocketFight_CharacterSetupViewController_get_StartGameButton:
 _p_94:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2824]
 br x16
-.word 2628
+.word 2640
 	.no_dead_strip plt_RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton
 plt_RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton:
 _p_95:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2832]
 br x16
-.word 2630
+.word 2642
 	.no_dead_strip plt_RocketFight_SettingsViewController_get_Sensitivity
 plt_RocketFight_SettingsViewController_get_Sensitivity:
 _p_96:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2840]
 br x16
-.word 2632
+.word 2644
 	.no_dead_strip plt_System_Convert_ToString_int
 plt_System_Convert_ToString_int:
 _p_97:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2848]
 br x16
-.word 2634
+.word 2646
 	.no_dead_strip plt_RocketFight_SettingsViewController_get_PlayerMunition
 plt_RocketFight_SettingsViewController_get_PlayerMunition:
 _p_98:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2856]
 br x16
-.word 2639
+.word 2651
 	.no_dead_strip plt_RocketFight_SettingsViewController_get_PlayerLifes
 plt_RocketFight_SettingsViewController_get_PlayerLifes:
 _p_99:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2864]
 br x16
-.word 2641
+.word 2653
 	.no_dead_strip plt_RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel
 plt_RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel:
 _p_100:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2872]
 br x16
-.word 2643
+.word 2655
 	.no_dead_strip plt_RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel
 plt_RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel:
 _p_101:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2880]
 br x16
-.word 2645
+.word 2657
 	.no_dead_strip plt_RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel
 plt_RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel:
 _p_102:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2888]
 br x16
-.word 2647
+.word 2659
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_103:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2896]
 br x16
-.word 2649
+.word 2661
 	.no_dead_strip plt_RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor
 plt_RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor:
 _p_104:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2904]
 br x16
-.word 2654
+.word 2666
 	.no_dead_strip plt_RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor
 plt_RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor:
 _p_105:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2912]
 br x16
-.word 2656
+.word 2668
 	.no_dead_strip plt_AudioToolbox_SystemSound__ctor_uint
 plt_AudioToolbox_SystemSound__ctor_uint:
 _p_106:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2920]
 br x16
-.word 2658
+.word 2670
 	.no_dead_strip plt_AudioToolbox_SystemSound_PlaySystemSound
 plt_AudioToolbox_SystemSound_PlaySystemSound:
 _p_107:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2928]
 br x16
-.word 2663
+.word 2675
 	.no_dead_strip plt_RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode
 plt_RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode:
 _p_108:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2936]
 br x16
-.word 2668
+.word 2680
 	.no_dead_strip plt_SpriteKit_SKPhysicsContactDelegate__ctor
 plt_SpriteKit_SKPhysicsContactDelegate__ctor:
 _p_109:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2944]
 br x16
-.word 2670
+.word 2682
 	.no_dead_strip plt_RocketFight_GameScene_IncreasePlayerBullets_int
 plt_RocketFight_GameScene_IncreasePlayerBullets_int:
 _p_110:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2952]
 br x16
-.word 2675
+.word 2687
 	.no_dead_strip plt_RocketFight_GameScene_ResetPlayerShoot_int
 plt_RocketFight_GameScene_ResetPlayerShoot_int:
 _p_111:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2960]
 br x16
-.word 2677
+.word 2689
 	.no_dead_strip plt_RocketFight_Obstacles__c__ctor
 plt_RocketFight_Obstacles__c__ctor:
 _p_112:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2968]
 br x16
-.word 2679
+.word 2691
 	.no_dead_strip plt_RocketFight_Obstacles_AddBonusElem
 plt_RocketFight_Obstacles_AddBonusElem:
 _p_113:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2976]
 br x16
-.word 2681
+.word 2693
 	.no_dead_strip plt_RocketFight_GameScene_RemoveNodeFromParent_SpriteKit_SKNode
 plt_RocketFight_GameScene_RemoveNodeFromParent_SpriteKit_SKNode:
 _p_114:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2984]
 br x16
-.word 2683
+.word 2695
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_115:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #2992]
 br x16
-.word 2711
+.word 2723
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_116:
 adrp x16, mono_aot_RocketFight_got@PAGE+0
 add x16, x16, mono_aot_RocketFight_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3000]
 br x16
-.word 2719
+.word 2731
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_RocketFight_got, 3000
+.lcomm mono_aot_RocketFight_got, 3008
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -20523,7 +20701,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "D2D99A9F-FF7B-48E6-B363-A0B56E915B72"
+	.asciz "E1879FCE-440F-4B32-9775-2211524D0585"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -20600,13 +20778,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 258,3000,117,121,70,391195135,0,29568
-	.long 128,8,8,9,0,25,31096,1520
+	.long 259,3008,117,121,70,391195135,0,29793
+	.long 128,8,8,9,0,25,31320,1520
 	.long 1176,352,0,880,1120,520,0,328
 	.long 184,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 121,10,35,153,129,66,84,202,33,227,3,191,22,63,67,60
+	.byte 175,39,175,195,233,6,91,119,31,142,139,245,236,165,200,232
 	.globl _mono_aot_module_RocketFight_info
 	.align 3
 _mono_aot_module_RocketFight_info:
@@ -24786,32 +24964,37 @@ Lfde49_end:
 
 LDIFF_SYM602=LTDIE_48_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM602
-	.byte 2,141,32,11
-	.asciz "i"
+	.byte 2,141,40,11
+	.asciz "BackgroundImage"
 
-LDIFF_SYM603=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM603=LTDIE_50_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM603
 	.byte 1,106,11
-	.asciz "V_1"
+	.asciz "i"
 
-LDIFF_SYM604=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM604=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM604
-	.byte 1,105,0
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM605=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM605
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM605=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM605
+LDIFF_SYM606=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM606
 Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_GenerateBackground
 
-LDIFF_SYM606=Lme_32 - RocketFight_Obstacles_GenerateBackground
-	.long LDIFF_SYM606
+LDIFF_SYM607=Lme_32 - RocketFight_Obstacles_GenerateBackground
+	.long LDIFF_SYM607
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
 	.align 3
 Lfde50_end:
 
@@ -24821,49 +25004,49 @@ Lfde50_end:
 	.asciz "RocketFight.Obstacles:AddBonusElem"
 	.asciz "RocketFight_Obstacles_AddBonusElem"
 
-	.byte 6,89
+	.byte 6,95
 	.quad RocketFight_Obstacles_AddBonusElem
 	.quad Lme_33
 
 	.byte 2,118,16,11
 	.asciz "Type"
 
-LDIFF_SYM607=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM607
+LDIFF_SYM608=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 1,106,11
 	.asciz "Name"
 
-LDIFF_SYM608=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM608
+LDIFF_SYM609=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM609=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM610=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM610=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM611=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM611=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM611
+LDIFF_SYM612=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM612
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM612=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM612
+LDIFF_SYM613=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM613
 Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_AddBonusElem
 
-LDIFF_SYM613=Lme_33 - RocketFight_Obstacles_AddBonusElem
-	.long LDIFF_SYM613
+LDIFF_SYM614=Lme_33 - RocketFight_Obstacles_AddBonusElem
+	.long LDIFF_SYM614
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,149,30,150,29,68,151,28,152,27,68,153,26,154,25
 	.align 3
@@ -24875,59 +25058,59 @@ Lfde51_end:
 	.asciz "RocketFight.Obstacles:InitializeBackground"
 	.asciz "RocketFight_Obstacles_InitializeBackground"
 
-	.byte 6,117
+	.byte 6,123
 	.quad RocketFight_Obstacles_InitializeBackground
 	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM614=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM615=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM615=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM615
+LDIFF_SYM616=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 1,105,11
 	.asciz "RockNo"
 
-LDIFF_SYM616=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM617=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM617
 	.byte 1,104,11
 	.asciz "VisibleElem"
 
-LDIFF_SYM617=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM618=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM618=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM618
+LDIFF_SYM619=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM619=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM619
+LDIFF_SYM620=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM620=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM620
+LDIFF_SYM621=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM621=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM621
+LDIFF_SYM622=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM622
 Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_InitializeBackground
 
-LDIFF_SYM622=Lme_34 - RocketFight_Obstacles_InitializeBackground
-	.long LDIFF_SYM622
+LDIFF_SYM623=Lme_34 - RocketFight_Obstacles_InitializeBackground
+	.long LDIFF_SYM623
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152,24,153,23,68,154,22
 	.align 3
@@ -24939,29 +25122,29 @@ Lfde52_end:
 	.asciz "RocketFight.Obstacles:InitializeWalls"
 	.asciz "RocketFight_Obstacles_InitializeWalls"
 
-	.byte 6,142,1
+	.byte 6,148,1
 	.quad RocketFight_Obstacles_InitializeWalls
 	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM623=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM624=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM624
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM624=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM624
+LDIFF_SYM625=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM625
 Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_InitializeWalls
 
-LDIFF_SYM625=Lme_35 - RocketFight_Obstacles_InitializeWalls
-	.long LDIFF_SYM625
+LDIFF_SYM626=Lme_35 - RocketFight_Obstacles_InitializeWalls
+	.long LDIFF_SYM626
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24,153,23,68,154,22
 	.align 3
@@ -24973,29 +25156,29 @@ Lfde53_end:
 	.asciz "RocketFight.Obstacles:InitializeGameBonusElems"
 	.asciz "RocketFight_Obstacles_InitializeGameBonusElems"
 
-	.byte 6,150,1
+	.byte 6,156,1
 	.quad RocketFight_Obstacles_InitializeGameBonusElems
 	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM626=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM627=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM627=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM627
+LDIFF_SYM628=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM628
 Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_InitializeGameBonusElems
 
-LDIFF_SYM628=Lme_36 - RocketFight_Obstacles_InitializeGameBonusElems
-	.long LDIFF_SYM628
+LDIFF_SYM629=Lme_36 - RocketFight_Obstacles_InitializeGameBonusElems
+	.long LDIFF_SYM629
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -25007,29 +25190,29 @@ Lfde54_end:
 	.asciz "RocketFight.Obstacles:InitializeObstacles"
 	.asciz "RocketFight_Obstacles_InitializeObstacles"
 
-	.byte 6,159,1
+	.byte 6,165,1
 	.quad RocketFight_Obstacles_InitializeObstacles
 	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM629=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM630=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM630
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM630=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM630
+LDIFF_SYM631=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM631
 Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_InitializeObstacles
 
-LDIFF_SYM631=Lme_37 - RocketFight_Obstacles_InitializeObstacles
-	.long LDIFF_SYM631
+LDIFF_SYM632=Lme_37 - RocketFight_Obstacles_InitializeObstacles
+	.long LDIFF_SYM632
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -25041,29 +25224,29 @@ Lfde55_end:
 	.asciz "RocketFight.Obstacles:RestartObstacles"
 	.asciz "RocketFight_Obstacles_RestartObstacles"
 
-	.byte 6,168,1
+	.byte 6,174,1
 	.quad RocketFight_Obstacles_RestartObstacles
 	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM632=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM633=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM633
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM633=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM633
+LDIFF_SYM634=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM634
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_RestartObstacles
 
-LDIFF_SYM634=Lme_38 - RocketFight_Obstacles_RestartObstacles
-	.long LDIFF_SYM634
+LDIFF_SYM635=Lme_38 - RocketFight_Obstacles_RestartObstacles
+	.long LDIFF_SYM635
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25082,22 +25265,22 @@ Lfde56_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM635=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM636=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM636=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM636
+LDIFF_SYM637=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM637
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles__ctor
 
-LDIFF_SYM637=Lme_39 - RocketFight_Obstacles__ctor
-	.long LDIFF_SYM637
+LDIFF_SYM638=Lme_39 - RocketFight_Obstacles__ctor
+	.long LDIFF_SYM638
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -25117,16 +25300,16 @@ Lfde57_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM638=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM638
+LDIFF_SYM639=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM639
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles__cctor
 
-LDIFF_SYM639=Lme_3a - RocketFight_Obstacles__cctor
-	.long LDIFF_SYM639
+LDIFF_SYM640=Lme_3a - RocketFight_Obstacles__cctor
+	.long LDIFF_SYM640
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25145,37 +25328,37 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM640=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM641=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM641=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM642=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM643
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM644=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM644
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM644=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM644
+LDIFF_SYM645=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM645
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_AddPlayers
 
-LDIFF_SYM645=Lme_3b - RocketFight_Players_AddPlayers
-	.long LDIFF_SYM645
+LDIFF_SYM646=Lme_3b - RocketFight_Players_AddPlayers
+	.long LDIFF_SYM646
 	.long 0
 	.byte 12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35
 	.align 3
@@ -25194,42 +25377,42 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM646=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM646
+LDIFF_SYM647=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM647
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM647=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM647
+LDIFF_SYM648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM648=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM648
+LDIFF_SYM649=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM649=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM649
+LDIFF_SYM650=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM650
 	.byte 1,103,11
 	.asciz "ex"
 
-LDIFF_SYM650=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM651=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM651
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM651=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM651
+LDIFF_SYM652=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM652
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_RestartPlayers
 
-LDIFF_SYM652=Lme_3c - RocketFight_Players_RestartPlayers
-	.long LDIFF_SYM652
+LDIFF_SYM653=Lme_3c - RocketFight_Players_RestartPlayers
+	.long LDIFF_SYM653
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,151,24,152,23,68,153,22,154,21
 	.align 3
@@ -25248,37 +25431,37 @@ Lfde60_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM653=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM654=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 2,141,24,3
 	.asciz "x"
 
-LDIFF_SYM654=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM654
+LDIFF_SYM655=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM655=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM656=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM656=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM657=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM657
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM657=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM657
+LDIFF_SYM658=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM658
 Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_ToPoz_double
 
-LDIFF_SYM658=Lme_3d - RocketFight_Players_ToPoz_double
-	.long LDIFF_SYM658
+LDIFF_SYM659=Lme_3d - RocketFight_Players_ToPoz_double
+	.long LDIFF_SYM659
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -25297,52 +25480,52 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM659=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM660=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM660
 	.byte 1,105,3
 	.asciz "playerno"
 
-LDIFF_SYM660=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM661=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM661
 	.byte 1,106,11
 	.asciz "yDiff"
 
-LDIFF_SYM661=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM662=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 3,141,200,0,11
 	.asciz "xDiff"
 
-LDIFF_SYM662=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM663=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 3,141,208,0,11
 	.asciz "V_2"
 
-LDIFF_SYM663=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM664=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 1,104,11
 	.asciz "bearingRadians"
 
-LDIFF_SYM664=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM665=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 3,141,216,0,11
 	.asciz "rotation"
 
-LDIFF_SYM665=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM666=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM666
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM666=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM666
+LDIFF_SYM667=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM667
 Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_RotatePlayer_int
 
-LDIFF_SYM667=Lme_3e - RocketFight_Players_RotatePlayer_int
-	.long LDIFF_SYM667
+LDIFF_SYM668=Lme_3e - RocketFight_Players_RotatePlayer_int
+	.long LDIFF_SYM668
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,152,19,68,153,18,154,17
 	.align 3
@@ -25361,47 +25544,47 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM668=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM669=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 1,105,3
 	.asciz "playerno"
 
-LDIFF_SYM669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM670=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM670
 	.byte 1,106,11
 	.asciz "Sensitivity"
 
-LDIFF_SYM670=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM671=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 3,141,216,0,11
 	.asciz "MaxMov"
 
-LDIFF_SYM671=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM672=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM672
 	.byte 3,141,224,0,11
 	.asciz "dx"
 
-LDIFF_SYM672=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM673=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 3,141,232,0,11
 	.asciz "dy"
 
-LDIFF_SYM673=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM674=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM674
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM674=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM674
+LDIFF_SYM675=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM675
 Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_StartMovingPlayer_int
 
-LDIFF_SYM675=Lme_3f - RocketFight_Players_StartMovingPlayer_int
-	.long LDIFF_SYM675
+LDIFF_SYM676=Lme_3f - RocketFight_Players_StartMovingPlayer_int
+	.long LDIFF_SYM676
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,154,23
 	.align 3
@@ -25420,27 +25603,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM676=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM677=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM677
 	.byte 2,141,16,3
 	.asciz "playerno"
 
-LDIFF_SYM677=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM677
+LDIFF_SYM678=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM678
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM678=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM678
+LDIFF_SYM679=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM679
 Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players_StopMovingPlayer_int
 
-LDIFF_SYM679=Lme_40 - RocketFight_Players_StopMovingPlayer_int
-	.long LDIFF_SYM679
+LDIFF_SYM680=Lme_40 - RocketFight_Players_StopMovingPlayer_int
+	.long LDIFF_SYM680
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
@@ -25459,22 +25642,22 @@ Lfde64_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM680=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM681=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM681
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM681=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM681
+LDIFF_SYM682=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM682
 Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players__ctor
 
-LDIFF_SYM682=Lme_41 - RocketFight_Players__ctor
-	.long LDIFF_SYM682
+LDIFF_SYM683=Lme_41 - RocketFight_Players__ctor
+	.long LDIFF_SYM683
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -25494,16 +25677,16 @@ Lfde65_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM683=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM683
+LDIFF_SYM684=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM684
 Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Players__cctor
 
-LDIFF_SYM684=Lme_42 - RocketFight_Players__cctor
-	.long LDIFF_SYM684
+LDIFF_SYM685=Lme_42 - RocketFight_Players__cctor
+	.long LDIFF_SYM685
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25516,23 +25699,23 @@ LTDIE_60:
 	.asciz "RocketFight_InitializationViewController"
 
 	.byte 48,16
-LDIFF_SYM685=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM686=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,35,0,0,7
 	.asciz "RocketFight_InitializationViewController"
 
-LDIFF_SYM686=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM687=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM687
 LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM687=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM688=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM688
 LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM688=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM689=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM689
 	.byte 2
 	.asciz "RocketFight.InitializationViewController:.ctor"
 	.asciz "RocketFight_InitializationViewController__ctor_intptr"
@@ -25544,27 +25727,27 @@ LDIFF_SYM688=LTDIE_60 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM689=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM690=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM690=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM691=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM691
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM691=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM691
+LDIFF_SYM692=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM692
 Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_InitializationViewController__ctor_intptr
 
-LDIFF_SYM692=Lme_43 - RocketFight_InitializationViewController__ctor_intptr
-	.long LDIFF_SYM692
+LDIFF_SYM693=Lme_43 - RocketFight_InitializationViewController__ctor_intptr
+	.long LDIFF_SYM693
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25583,22 +25766,22 @@ Lfde67_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM693=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM694=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM694=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM694
+LDIFF_SYM695=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM695
 Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_InitializationViewController_ViewDidLoad
 
-LDIFF_SYM695=Lme_44 - RocketFight_InitializationViewController_ViewDidLoad
-	.long LDIFF_SYM695
+LDIFF_SYM696=Lme_44 - RocketFight_InitializationViewController_ViewDidLoad
+	.long LDIFF_SYM696
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25617,22 +25800,22 @@ Lfde68_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM696=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM697=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM697=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM697
+LDIFF_SYM698=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM698
 Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_InitializationViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM698=Lme_45 - RocketFight_InitializationViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM698
+LDIFF_SYM699=Lme_45 - RocketFight_InitializationViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM699
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25651,27 +25834,27 @@ Lfde69_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM699=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM700=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM700=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM701=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM701
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM701=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM701
+LDIFF_SYM702=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM702
 Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_InitializationViewController_StartGameAction
 
-LDIFF_SYM702=Lme_46 - RocketFight_InitializationViewController_StartGameAction
-	.long LDIFF_SYM702
+LDIFF_SYM703=Lme_46 - RocketFight_InitializationViewController_StartGameAction
+	.long LDIFF_SYM703
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -25690,22 +25873,22 @@ Lfde70_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM703=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM704=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM704=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM704
+LDIFF_SYM705=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM705
 Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_InitializationViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM705=Lme_47 - RocketFight_InitializationViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM705
+LDIFF_SYM706=Lme_47 - RocketFight_InitializationViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM706
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25718,84 +25901,84 @@ LTDIE_63:
 	.asciz "UIKit_UIControl"
 
 	.byte 48,16
-LDIFF_SYM706=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM707=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIControl"
 
-LDIFF_SYM707=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM707
+LDIFF_SYM708=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM708
 LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM708=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM709=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM709
 LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM709=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM710=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM710
 LTDIE_62:
 
 	.byte 5
 	.asciz "UIKit_UIButton"
 
 	.byte 48,16
-LDIFF_SYM710=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM710
+LDIFF_SYM711=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM711
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIButton"
 
-LDIFF_SYM711=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM711
+LDIFF_SYM712=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM712
 LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM712=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM713=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM713
 LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM713=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM713
+LDIFF_SYM714=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM714
 LTDIE_61:
 
 	.byte 5
 	.asciz "RocketFight_CharacterSetupViewController"
 
 	.byte 72,16
-LDIFF_SYM714=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM715=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 2,35,0,6
 	.asciz "<PlayerOneView>k__BackingField"
 
-LDIFF_SYM715=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM716=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 2,35,48,6
 	.asciz "<PlayerTwoView>k__BackingField"
 
-LDIFF_SYM716=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM717=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM717
 	.byte 2,35,56,6
 	.asciz "<StartGameButton>k__BackingField"
 
-LDIFF_SYM717=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM718=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 2,35,64,0,7
 	.asciz "RocketFight_CharacterSetupViewController"
 
-LDIFF_SYM718=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM719=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM719
 LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM719=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM719
+LDIFF_SYM720=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM720
 LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM720=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM721=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 2
 	.asciz "RocketFight.CharacterSetupViewController:.ctor"
 	.asciz "RocketFight_CharacterSetupViewController__ctor_intptr"
@@ -25807,27 +25990,27 @@ LDIFF_SYM720=LTDIE_61 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM721=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM722=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM722
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM722=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM723=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM723=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM723
+LDIFF_SYM724=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM724
 Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController__ctor_intptr
 
-LDIFF_SYM724=Lme_48 - RocketFight_CharacterSetupViewController__ctor_intptr
-	.long LDIFF_SYM724
+LDIFF_SYM725=Lme_48 - RocketFight_CharacterSetupViewController__ctor_intptr
+	.long LDIFF_SYM725
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25846,22 +26029,22 @@ Lfde72_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM725=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM726=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM726
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM726=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM726
+LDIFF_SYM727=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM727
 Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_ViewDidLoad
 
-LDIFF_SYM727=Lme_49 - RocketFight_CharacterSetupViewController_ViewDidLoad
-	.long LDIFF_SYM727
+LDIFF_SYM728=Lme_49 - RocketFight_CharacterSetupViewController_ViewDidLoad
+	.long LDIFF_SYM728
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -25880,22 +26063,22 @@ Lfde73_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM728=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM729=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM729=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM729
+LDIFF_SYM730=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM730
 Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM730=Lme_4a - RocketFight_CharacterSetupViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM730
+LDIFF_SYM731=Lme_4a - RocketFight_CharacterSetupViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM731
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25914,22 +26097,22 @@ Lfde74_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM731=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM732=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM732=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM732
+LDIFF_SYM733=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM733
 Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_get_PlayerOneView
 
-LDIFF_SYM733=Lme_4b - RocketFight_CharacterSetupViewController_get_PlayerOneView
-	.long LDIFF_SYM733
+LDIFF_SYM734=Lme_4b - RocketFight_CharacterSetupViewController_get_PlayerOneView
+	.long LDIFF_SYM734
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -25948,27 +26131,27 @@ Lfde75_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM734=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM735=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM735
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM735=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM736=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM736=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM736
+LDIFF_SYM737=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM737
 Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView
 
-LDIFF_SYM737=Lme_4c - RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView
-	.long LDIFF_SYM737
+LDIFF_SYM738=Lme_4c - RocketFight_CharacterSetupViewController_set_PlayerOneView_UIKit_UIView
+	.long LDIFF_SYM738
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -25987,22 +26170,22 @@ Lfde76_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM738=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM739=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM739
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM739=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM739
+LDIFF_SYM740=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM740
 Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_get_PlayerTwoView
 
-LDIFF_SYM740=Lme_4d - RocketFight_CharacterSetupViewController_get_PlayerTwoView
-	.long LDIFF_SYM740
+LDIFF_SYM741=Lme_4d - RocketFight_CharacterSetupViewController_get_PlayerTwoView
+	.long LDIFF_SYM741
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26021,27 +26204,27 @@ Lfde77_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM741=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM742=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM742=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM743=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM743=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM743
+LDIFF_SYM744=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM744
 Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView
 
-LDIFF_SYM744=Lme_4e - RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView
-	.long LDIFF_SYM744
+LDIFF_SYM745=Lme_4e - RocketFight_CharacterSetupViewController_set_PlayerTwoView_UIKit_UIView
+	.long LDIFF_SYM745
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26060,22 +26243,22 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM745=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM746=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM746=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM746
+LDIFF_SYM747=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM747
 Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_get_StartGameButton
 
-LDIFF_SYM747=Lme_4f - RocketFight_CharacterSetupViewController_get_StartGameButton
-	.long LDIFF_SYM747
+LDIFF_SYM748=Lme_4f - RocketFight_CharacterSetupViewController_get_StartGameButton
+	.long LDIFF_SYM748
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26094,27 +26277,27 @@ Lfde79_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM748=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM749=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM749=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM750=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM750
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM750=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM750
+LDIFF_SYM751=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM751
 Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton
 
-LDIFF_SYM751=Lme_50 - RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton
-	.long LDIFF_SYM751
+LDIFF_SYM752=Lme_50 - RocketFight_CharacterSetupViewController_set_StartGameButton_UIKit_UIButton
+	.long LDIFF_SYM752
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26133,32 +26316,32 @@ Lfde80_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM752=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM752
+LDIFF_SYM753=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM753=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM753
+LDIFF_SYM754=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,141,24,3
 	.asciz "event"
 
-LDIFF_SYM754=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM755=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM755=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM755
+LDIFF_SYM756=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM756
 Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_PlayerOneOption1_UIKit_UIButton_UIKit_UIEvent
 
-LDIFF_SYM756=Lme_51 - RocketFight_CharacterSetupViewController_PlayerOneOption1_UIKit_UIButton_UIKit_UIEvent
-	.long LDIFF_SYM756
+LDIFF_SYM757=Lme_51 - RocketFight_CharacterSetupViewController_PlayerOneOption1_UIKit_UIButton_UIKit_UIEvent
+	.long LDIFF_SYM757
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26177,27 +26360,27 @@ Lfde81_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM757=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM758=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM758=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM759=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM759=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM759
+LDIFF_SYM760=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM760
 Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_PlayerOneOption2_UIKit_UIButton
 
-LDIFF_SYM760=Lme_52 - RocketFight_CharacterSetupViewController_PlayerOneOption2_UIKit_UIButton
-	.long LDIFF_SYM760
+LDIFF_SYM761=Lme_52 - RocketFight_CharacterSetupViewController_PlayerOneOption2_UIKit_UIButton
+	.long LDIFF_SYM761
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26216,27 +26399,27 @@ Lfde82_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM761=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM762=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM762=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM762
+LDIFF_SYM763=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM763=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM763
+LDIFF_SYM764=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM764
 Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_PlayerTwoOption1_UIKit_UIButton
 
-LDIFF_SYM764=Lme_53 - RocketFight_CharacterSetupViewController_PlayerTwoOption1_UIKit_UIButton
-	.long LDIFF_SYM764
+LDIFF_SYM765=Lme_53 - RocketFight_CharacterSetupViewController_PlayerTwoOption1_UIKit_UIButton
+	.long LDIFF_SYM765
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26255,27 +26438,27 @@ Lfde83_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM765=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM766=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM766
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM766=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM767=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM767=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM767
+LDIFF_SYM768=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM768
 Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_PlayerTwoOption2_UIKit_UIButton
 
-LDIFF_SYM768=Lme_54 - RocketFight_CharacterSetupViewController_PlayerTwoOption2_UIKit_UIButton
-	.long LDIFF_SYM768
+LDIFF_SYM769=Lme_54 - RocketFight_CharacterSetupViewController_PlayerTwoOption2_UIKit_UIButton
+	.long LDIFF_SYM769
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26294,37 +26477,37 @@ Lfde84_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM769=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM770=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM770=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM771=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM771=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM771
+LDIFF_SYM772=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM772=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM772
+LDIFF_SYM773=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM773=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM773
+LDIFF_SYM774=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM774
 Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_CharacterSetupViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM774=Lme_55 - RocketFight_CharacterSetupViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM774
+LDIFF_SYM775=Lme_55 - RocketFight_CharacterSetupViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM775
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -26337,61 +26520,61 @@ LTDIE_65:
 	.asciz "UIKit_UILabel"
 
 	.byte 48,16
-LDIFF_SYM775=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM776=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UILabel"
 
-LDIFF_SYM776=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM777=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM777
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM777=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM778=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM778
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM778=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM779=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM779
 LTDIE_64:
 
 	.byte 5
 	.asciz "RocketFight_SettingsViewController"
 
 	.byte 72,16
-LDIFF_SYM779=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM780=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2,35,0,6
 	.asciz "<PlayerLifes>k__BackingField"
 
-LDIFF_SYM780=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM781=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,35,48,6
 	.asciz "<PlayerMunition>k__BackingField"
 
-LDIFF_SYM781=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM782=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 2,35,56,6
 	.asciz "<Sensitivity>k__BackingField"
 
-LDIFF_SYM782=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM783=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM783
 	.byte 2,35,64,0,7
 	.asciz "RocketFight_SettingsViewController"
 
-LDIFF_SYM783=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM784=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM784
 LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM784=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM785=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM785
 LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM785=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM786=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM786
 	.byte 2
 	.asciz "RocketFight.SettingsViewController:.ctor"
 	.asciz "RocketFight_SettingsViewController__ctor_intptr"
@@ -26403,27 +26586,27 @@ LDIFF_SYM785=LTDIE_64 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM786=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM787=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM787
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM787=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM788=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM788=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM788
+LDIFF_SYM789=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM789
 Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController__ctor_intptr
 
-LDIFF_SYM789=Lme_56 - RocketFight_SettingsViewController__ctor_intptr
-	.long LDIFF_SYM789
+LDIFF_SYM790=Lme_56 - RocketFight_SettingsViewController__ctor_intptr
+	.long LDIFF_SYM790
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26442,22 +26625,22 @@ Lfde86_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM790=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM791=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM791=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM791
+LDIFF_SYM792=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM792
 Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_ViewDidLoad
 
-LDIFF_SYM792=Lme_57 - RocketFight_SettingsViewController_ViewDidLoad
-	.long LDIFF_SYM792
+LDIFF_SYM793=Lme_57 - RocketFight_SettingsViewController_ViewDidLoad
+	.long LDIFF_SYM793
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -26476,22 +26659,22 @@ Lfde87_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM793=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM794=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM794=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM794
+LDIFF_SYM795=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM795
 Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM795=Lme_58 - RocketFight_SettingsViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM795
+LDIFF_SYM796=Lme_58 - RocketFight_SettingsViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM796
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26510,22 +26693,22 @@ Lfde88_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM796=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM797=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM797=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM797
+LDIFF_SYM798=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM798
 Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_get_PlayerLifes
 
-LDIFF_SYM798=Lme_59 - RocketFight_SettingsViewController_get_PlayerLifes
-	.long LDIFF_SYM798
+LDIFF_SYM799=Lme_59 - RocketFight_SettingsViewController_get_PlayerLifes
+	.long LDIFF_SYM799
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26544,27 +26727,27 @@ Lfde89_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM799=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM800=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM800
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM800=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM801=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM801
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM801=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM801
+LDIFF_SYM802=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM802
 Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel
 
-LDIFF_SYM802=Lme_5a - RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel
-	.long LDIFF_SYM802
+LDIFF_SYM803=Lme_5a - RocketFight_SettingsViewController_set_PlayerLifes_UIKit_UILabel
+	.long LDIFF_SYM803
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26583,22 +26766,22 @@ Lfde90_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM803=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM804=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM804=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM804
+LDIFF_SYM805=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM805
 Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_get_PlayerMunition
 
-LDIFF_SYM805=Lme_5b - RocketFight_SettingsViewController_get_PlayerMunition
-	.long LDIFF_SYM805
+LDIFF_SYM806=Lme_5b - RocketFight_SettingsViewController_get_PlayerMunition
+	.long LDIFF_SYM806
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26617,27 +26800,27 @@ Lfde91_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM806=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM807=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM807=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM807
+LDIFF_SYM808=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM808=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM808
+LDIFF_SYM809=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM809
 Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel
 
-LDIFF_SYM809=Lme_5c - RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel
-	.long LDIFF_SYM809
+LDIFF_SYM810=Lme_5c - RocketFight_SettingsViewController_set_PlayerMunition_UIKit_UILabel
+	.long LDIFF_SYM810
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26656,22 +26839,22 @@ Lfde92_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM810=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM811=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM811=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM811
+LDIFF_SYM812=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM812
 Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_get_Sensitivity
 
-LDIFF_SYM812=Lme_5d - RocketFight_SettingsViewController_get_Sensitivity
-	.long LDIFF_SYM812
+LDIFF_SYM813=Lme_5d - RocketFight_SettingsViewController_get_Sensitivity
+	.long LDIFF_SYM813
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26690,27 +26873,27 @@ Lfde93_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM813=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM814=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM814=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM815=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM815=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM815
+LDIFF_SYM816=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM816
 Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel
 
-LDIFF_SYM816=Lme_5e - RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel
-	.long LDIFF_SYM816
+LDIFF_SYM817=Lme_5e - RocketFight_SettingsViewController_set_Sensitivity_UIKit_UILabel
+	.long LDIFF_SYM817
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -26723,23 +26906,23 @@ LTDIE_66:
 	.asciz "UIKit_UISlider"
 
 	.byte 48,16
-LDIFF_SYM817=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM818=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM818
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UISlider"
 
-LDIFF_SYM818=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM819=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM819
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM819=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM820=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM820
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM820=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM821=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM821
 	.byte 2
 	.asciz "RocketFight.SettingsViewController:PlayerBulletsChanged"
 	.asciz "RocketFight_SettingsViewController_PlayerBulletsChanged_UIKit_UISlider"
@@ -26751,27 +26934,27 @@ LDIFF_SYM820=LTDIE_66 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM821=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM822=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM822
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM822=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM823=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM823=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM823
+LDIFF_SYM824=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM824
 Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_PlayerBulletsChanged_UIKit_UISlider
 
-LDIFF_SYM824=Lme_5f - RocketFight_SettingsViewController_PlayerBulletsChanged_UIKit_UISlider
-	.long LDIFF_SYM824
+LDIFF_SYM825=Lme_5f - RocketFight_SettingsViewController_PlayerBulletsChanged_UIKit_UISlider
+	.long LDIFF_SYM825
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -26790,27 +26973,27 @@ Lfde95_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM825=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM826=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM826=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM827=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM827=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM827
+LDIFF_SYM828=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM828
 Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_PlayerLifesChanged_UIKit_UISlider
 
-LDIFF_SYM828=Lme_60 - RocketFight_SettingsViewController_PlayerLifesChanged_UIKit_UISlider
-	.long LDIFF_SYM828
+LDIFF_SYM829=Lme_60 - RocketFight_SettingsViewController_PlayerLifesChanged_UIKit_UISlider
+	.long LDIFF_SYM829
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -26829,27 +27012,27 @@ Lfde96_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM829=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM830=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM830=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM831=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM831=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM831
+LDIFF_SYM832=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM832
 Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_SensitivityChanged_UIKit_UISlider
 
-LDIFF_SYM832=Lme_61 - RocketFight_SettingsViewController_SensitivityChanged_UIKit_UISlider
-	.long LDIFF_SYM832
+LDIFF_SYM833=Lme_61 - RocketFight_SettingsViewController_SensitivityChanged_UIKit_UISlider
+	.long LDIFF_SYM833
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -26868,37 +27051,37 @@ Lfde97_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM833=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM834=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM834=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM835=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM835
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM835=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM836=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM836=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM837=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM837=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM837
+LDIFF_SYM838=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM838
 Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_SettingsViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM838=Lme_62 - RocketFight_SettingsViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM838
+LDIFF_SYM839=Lme_62 - RocketFight_SettingsViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM839
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -26911,23 +27094,23 @@ LTDIE_67:
 	.asciz "_GameSettings"
 
 	.byte 16,16
-LDIFF_SYM839=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM840=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM840
 	.byte 2,35,0,0,7
 	.asciz "_GameSettings"
 
-LDIFF_SYM840=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM841=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM841
 LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM841=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM842=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM842
 LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM842=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM843=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 2
 	.asciz "RocketFight.Application/GameSettings:.ctor"
 	.asciz "RocketFight_Application_GameSettings__ctor"
@@ -26939,22 +27122,22 @@ LDIFF_SYM842=LTDIE_67 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM843=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM844=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM844
+LDIFF_SYM845=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM845
 Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Application_GameSettings__ctor
 
-LDIFF_SYM845=Lme_63 - RocketFight_Application_GameSettings__ctor
-	.long LDIFF_SYM845
+LDIFF_SYM846=Lme_63 - RocketFight_Application_GameSettings__ctor
+	.long LDIFF_SYM846
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26974,16 +27157,16 @@ Lfde99_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM846=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM846
+LDIFF_SYM847=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM847
 Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Application_GameSettings__cctor
 
-LDIFF_SYM847=Lme_64 - RocketFight_Application_GameSettings__cctor
-	.long LDIFF_SYM847
+LDIFF_SYM848=Lme_64 - RocketFight_Application_GameSettings__cctor
+	.long LDIFF_SYM848
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -26996,23 +27179,23 @@ LTDIE_68:
 	.asciz "_PlayerSettings"
 
 	.byte 16,16
-LDIFF_SYM848=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM849=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,35,0,0,7
 	.asciz "_PlayerSettings"
 
-LDIFF_SYM849=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM850=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM850
 LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM850=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM851=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM851
 LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM851=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM852=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 2
 	.asciz "RocketFight.Application/PlayerSettings:.ctor"
 	.asciz "RocketFight_Application_PlayerSettings__ctor"
@@ -27024,22 +27207,22 @@ LDIFF_SYM851=LTDIE_68 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM852=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM853=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM853
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM853=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM853
+LDIFF_SYM854=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM854
 Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Application_PlayerSettings__ctor
 
-LDIFF_SYM854=Lme_65 - RocketFight_Application_PlayerSettings__ctor
-	.long LDIFF_SYM854
+LDIFF_SYM855=Lme_65 - RocketFight_Application_PlayerSettings__ctor
+	.long LDIFF_SYM855
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27059,16 +27242,16 @@ Lfde101_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM855=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM855
+LDIFF_SYM856=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM856
 Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Application_PlayerSettings__cctor
 
-LDIFF_SYM856=Lme_66 - RocketFight_Application_PlayerSettings__cctor
-	.long LDIFF_SYM856
+LDIFF_SYM857=Lme_66 - RocketFight_Application_PlayerSettings__cctor
+	.long LDIFF_SYM857
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27081,53 +27264,53 @@ LTDIE_69:
 	.asciz "_DefaultSizes"
 
 	.byte 40,16
-LDIFF_SYM857=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM858=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM858
 	.byte 2,35,0,6
 	.asciz "MinX"
 
-LDIFF_SYM858=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM859=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM859
 	.byte 2,35,16,6
 	.asciz "MinY"
 
-LDIFF_SYM859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM860=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM860
 	.byte 2,35,20,6
 	.asciz "MaxX"
 
-LDIFF_SYM860=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM861=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM861
 	.byte 2,35,24,6
 	.asciz "MaxY"
 
-LDIFF_SYM861=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM862=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM862
 	.byte 2,35,28,6
 	.asciz "Width"
 
-LDIFF_SYM862=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 2,35,32,6
 	.asciz "Height"
 
-LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM864=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 2,35,36,0,7
 	.asciz "_DefaultSizes"
 
-LDIFF_SYM864=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM865=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM865
 LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM865=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM866=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM866
 LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM866=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM867=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2
 	.asciz "RocketFight.GameScene/DefaultSizes:.ctor"
 	.asciz "RocketFight_GameScene_DefaultSizes__ctor"
@@ -27139,22 +27322,22 @@ LDIFF_SYM866=LTDIE_69 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM867=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM867
+LDIFF_SYM868=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM868=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM868
+LDIFF_SYM869=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM869
 Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_DefaultSizes__ctor
 
-LDIFF_SYM869=Lme_67 - RocketFight_GameScene_DefaultSizes__ctor
-	.long LDIFF_SYM869
+LDIFF_SYM870=Lme_67 - RocketFight_GameScene_DefaultSizes__ctor
+	.long LDIFF_SYM870
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -27167,196 +27350,196 @@ LTDIE_71:
 	.asciz "SpriteKit_SKPhysicsContactDelegate"
 
 	.byte 40,16
-LDIFF_SYM870=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM871=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 2,35,0,0,7
 	.asciz "SpriteKit_SKPhysicsContactDelegate"
 
-LDIFF_SYM871=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM872=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM872
 LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM872=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM873=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM873
 LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM873=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM873
+LDIFF_SYM874=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM874
 LTDIE_70:
 
 	.byte 5
 	.asciz "_CollisionDelegate"
 
 	.byte 40,16
-LDIFF_SYM874=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM875=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 2,35,0,0,7
 	.asciz "_CollisionDelegate"
 
-LDIFF_SYM875=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM876=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM876
 LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM876=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM877=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM877
 LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM877=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM878=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM878
 LTDIE_72:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass0_0"
 
 	.byte 24,16
-LDIFF_SYM878=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM879=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM879
 	.byte 2,35,0,6
 	.asciz "ExplosionNode"
 
-LDIFF_SYM879=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM880=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass0_0"
 
-LDIFF_SYM880=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM881=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM881
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM881=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM882=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM882
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM882=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM883=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM883
 LTDIE_73:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass0_1"
 
 	.byte 24,16
-LDIFF_SYM883=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM884=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 2,35,0,6
 	.asciz "RocketExplosionNode"
 
-LDIFF_SYM884=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM885=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass0_1"
 
-LDIFF_SYM885=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM886=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM886
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM886=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM887=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM887
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM887=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM888=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM888
 LTDIE_75:
 
 	.byte 5
 	.asciz "System_UInt32"
 
 	.byte 20,16
-LDIFF_SYM888=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM889=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM889=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM890=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,35,16,0,7
 	.asciz "System_UInt32"
 
-LDIFF_SYM890=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM891=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM891
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM891=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM892=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM892
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM892=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM893=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM893
 LTDIE_76:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM893=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM894=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM894=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM895=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM895
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM895=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM896=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM896
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM896=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM897=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM897
 LTDIE_74:
 
 	.byte 5
 	.asciz "AudioToolbox_SystemSound"
 
 	.byte 40,16
-LDIFF_SYM897=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM898=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 2,35,0,6
 	.asciz "soundId"
 
-LDIFF_SYM898=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM899=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM899
 	.byte 2,35,24,6
 	.asciz "ownsHandle"
 
-LDIFF_SYM899=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM900=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 2,35,28,6
 	.asciz "completionRoutine"
 
-LDIFF_SYM900=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM901=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 2,35,16,6
 	.asciz "gc_handle"
 
-LDIFF_SYM901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM902=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM902
 	.byte 2,35,32,0,7
 	.asciz "AudioToolbox_SystemSound"
 
-LDIFF_SYM902=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM903=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM903
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM903=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM904=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM904
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM904=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM905=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 2
 	.asciz "RocketFight.GameScene/CollisionDelegate:CollisionHappend"
 	.asciz "RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode"
@@ -27368,87 +27551,87 @@ LDIFF_SYM904=LTDIE_74 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM905=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM906=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 3,141,208,0,3
 	.asciz "Node1"
 
-LDIFF_SYM906=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM907=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM907
 	.byte 1,105,3
 	.asciz "Node2"
 
-LDIFF_SYM907=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM907
+LDIFF_SYM908=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM908=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM909=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM909
 	.byte 1,104,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM909=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM910=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM910
 	.byte 1,103,11
 	.asciz "playerno"
 
-LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM911
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM911=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM912=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM912
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM912=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM913=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM913
 	.byte 1,100,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM913=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM914=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 1,99,11
 	.asciz "systemSound"
 
-LDIFF_SYM914=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM915=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 3,141,216,1,11
 	.asciz "V_7"
 
-LDIFF_SYM915=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM916=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 3,141,224,1,11
 	.asciz "PlayerNo"
 
-LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 3,141,232,1,11
 	.asciz "V_9"
 
-LDIFF_SYM917=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM918=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 3,141,240,1,11
 	.asciz "V_10"
 
-LDIFF_SYM918=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM919=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 3,141,248,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM919=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM919
+LDIFF_SYM920=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM920
 Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode
 
-LDIFF_SYM920=Lme_68 - RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode
-	.long LDIFF_SYM920
+LDIFF_SYM921=Lme_68 - RocketFight_GameScene_CollisionDelegate_CollisionHappend_SpriteKit_SKNode_SpriteKit_SKNode
+	.long LDIFF_SYM921
 	.long 0
 	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,147,42,148,41,68,149,40,150,39,68,151,38,152,37,68,153,36
 	.byte 154,35
@@ -27462,23 +27645,23 @@ LTDIE_77:
 	.asciz "SpriteKit_SKPhysicsContact"
 
 	.byte 40,16
-LDIFF_SYM921=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM922=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM922
 	.byte 2,35,0,0,7
 	.asciz "SpriteKit_SKPhysicsContact"
 
-LDIFF_SYM922=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM923=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM923
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM923=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM924=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM924
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM924=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM925=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 2
 	.asciz "RocketFight.GameScene/CollisionDelegate:DidBeginContact"
 	.asciz "RocketFight_GameScene_CollisionDelegate_DidBeginContact_SpriteKit_SKPhysicsContact"
@@ -27490,27 +27673,27 @@ LDIFF_SYM924=LTDIE_77 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM925=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM926=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM926
 	.byte 1,105,3
 	.asciz "contact"
 
-LDIFF_SYM926=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM927=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM927=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM927
+LDIFF_SYM928=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM928
 Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate_DidBeginContact_SpriteKit_SKPhysicsContact
 
-LDIFF_SYM928=Lme_69 - RocketFight_GameScene_CollisionDelegate_DidBeginContact_SpriteKit_SKPhysicsContact
-	.long LDIFF_SYM928
+LDIFF_SYM929=Lme_69 - RocketFight_GameScene_CollisionDelegate_DidBeginContact_SpriteKit_SKPhysicsContact
+	.long LDIFF_SYM929
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
@@ -27529,22 +27712,22 @@ Lfde105_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM929=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM930=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM930=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM930
+LDIFF_SYM931=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM931
 Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate__ctor
 
-LDIFF_SYM931=Lme_6a - RocketFight_GameScene_CollisionDelegate__ctor
-	.long LDIFF_SYM931
+LDIFF_SYM932=Lme_6a - RocketFight_GameScene_CollisionDelegate__ctor
+	.long LDIFF_SYM932
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27563,22 +27746,22 @@ Lfde106_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM932=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM933=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM933=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM933
+LDIFF_SYM934=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM934
 Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene__c__DisplayClass24_0__ctor
 
-LDIFF_SYM934=Lme_6b - RocketFight_GameScene__c__DisplayClass24_0__ctor
-	.long LDIFF_SYM934
+LDIFF_SYM935=Lme_6b - RocketFight_GameScene__c__DisplayClass24_0__ctor
+	.long LDIFF_SYM935
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27597,32 +27780,32 @@ Lfde107_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM935=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM936=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM936=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM937=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM937=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM938=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM938
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM938=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM938
+LDIFF_SYM939=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM939
 Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__0_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM939=Lme_6c - RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__0_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM939
+LDIFF_SYM940=Lme_6c - RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__0_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM940
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -27641,32 +27824,32 @@ Lfde108_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM940=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM941=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM941=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM942=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM942=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM943=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM943=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM943
+LDIFF_SYM944=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM944
 Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__1_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM944=Lme_6d - RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__1_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM944
+LDIFF_SYM945=Lme_6d - RocketFight_GameScene__c__DisplayClass24_0__LaunchBulletb__1_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM945
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -27679,43 +27862,43 @@ LTDIE_78:
 	.asciz "_Obstacle"
 
 	.byte 32,16
-LDIFF_SYM945=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM946=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 2,35,0,6
 	.asciz "X"
 
-LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM947=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 2,35,16,6
 	.asciz "Y"
 
-LDIFF_SYM947=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM947
+LDIFF_SYM948=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 2,35,20,6
 	.asciz "width"
 
-LDIFF_SYM948=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM948
+LDIFF_SYM949=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 2,35,24,6
 	.asciz "height"
 
-LDIFF_SYM949=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM950=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 2,35,28,0,7
 	.asciz "_Obstacle"
 
-LDIFF_SYM950=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM950
+LDIFF_SYM951=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM951
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM951=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM951
+LDIFF_SYM952=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM952
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM952=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM953=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 2
 	.asciz "RocketFight.Obstacles/Obstacle:.ctor"
 	.asciz "RocketFight_Obstacles_Obstacle__ctor_int_int_int_int"
@@ -27727,42 +27910,42 @@ LDIFF_SYM952=LTDIE_78 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM953=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM954=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM954
 	.byte 1,102,3
 	.asciz "w"
 
-LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM955
 	.byte 1,103,3
 	.asciz "h"
 
-LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM956=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 1,104,3
 	.asciz "x"
 
-LDIFF_SYM956=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 2,141,40,3
 	.asciz "y"
 
-LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM958=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM958
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM958=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM958
+LDIFF_SYM959=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM959
 Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles_Obstacle__ctor_int_int_int_int
 
-LDIFF_SYM959=Lme_6e - RocketFight_Obstacles_Obstacle__ctor_int_int_int_int
-	.long LDIFF_SYM959
+LDIFF_SYM960=Lme_6e - RocketFight_Obstacles_Obstacle__ctor_int_int_int_int
+	.long LDIFF_SYM960
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6
 	.align 3
@@ -27782,16 +27965,16 @@ Lfde110_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM960=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM960
+LDIFF_SYM961=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM961
 Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles__c__cctor
 
-LDIFF_SYM961=Lme_6f - RocketFight_Obstacles__c__cctor
-	.long LDIFF_SYM961
+LDIFF_SYM962=Lme_6f - RocketFight_Obstacles__c__cctor
+	.long LDIFF_SYM962
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -27804,23 +27987,23 @@ LTDIE_79:
 	.asciz "_<>c"
 
 	.byte 16,16
-LDIFF_SYM962=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM963=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 2,35,0,0,7
 	.asciz "_<>c"
 
-LDIFF_SYM963=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM964=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM964
 LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM964=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM964
+LDIFF_SYM965=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM965
 LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM965=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM965
+LDIFF_SYM966=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 2
 	.asciz "RocketFight.Obstacles/<>c:.ctor"
 	.asciz "RocketFight_Obstacles__c__ctor"
@@ -27832,22 +28015,22 @@ LDIFF_SYM965=LTDIE_79 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM966=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM967=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM967=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM967
+LDIFF_SYM968=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM968
 Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles__c__ctor
 
-LDIFF_SYM968=Lme_70 - RocketFight_Obstacles__c__ctor
-	.long LDIFF_SYM968
+LDIFF_SYM969=Lme_70 - RocketFight_Obstacles__c__ctor
+	.long LDIFF_SYM969
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27859,39 +28042,39 @@ Lfde112_end:
 	.asciz "RocketFight.Obstacles/<>c:<InitializeGameBonusElems>b__18_0"
 	.asciz "RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs"
 
-	.byte 6,151,1
+	.byte 6,157,1
 	.quad RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs
 	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM969=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM969
+LDIFF_SYM970=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM970=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM971=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM971=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM972=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM972
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM972=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM972
+LDIFF_SYM973=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM973
 Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM973=Lme_71 - RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM973
+LDIFF_SYM974=Lme_71 - RocketFight_Obstacles__c__InitializeGameBonusElemsb__18_0_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM974
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -27910,22 +28093,22 @@ Lfde113_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM974=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM974
+LDIFF_SYM975=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM975=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM975
+LDIFF_SYM976=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM976
 Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor
 
-LDIFF_SYM976=Lme_72 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor
-	.long LDIFF_SYM976
+LDIFF_SYM977=Lme_72 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__ctor
+	.long LDIFF_SYM977
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -27944,32 +28127,32 @@ Lfde114_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM977=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM977
+LDIFF_SYM978=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM978=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM979=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM979
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM979=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM980=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM980=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM980
+LDIFF_SYM981=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM981
 Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__CollisionHappendb__0_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM981=Lme_73 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__CollisionHappendb__0_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM981
+LDIFF_SYM982=Lme_73 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_0__CollisionHappendb__0_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM982
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -27988,22 +28171,22 @@ Lfde115_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM982=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM982
+LDIFF_SYM983=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM983
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM983=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM983
+LDIFF_SYM984=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM984
 Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor
 
-LDIFF_SYM984=Lme_74 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor
-	.long LDIFF_SYM984
+LDIFF_SYM985=Lme_74 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__ctor
+	.long LDIFF_SYM985
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -28022,32 +28205,32 @@ Lfde116_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM985=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM986=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM986=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM987=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM987
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM987=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM987
+LDIFF_SYM988=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM988=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM988
+LDIFF_SYM989=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM989
 Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__CollisionHappendb__1_object_System_Timers_ElapsedEventArgs
 
-LDIFF_SYM989=Lme_75 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__CollisionHappendb__1_object_System_Timers_ElapsedEventArgs
-	.long LDIFF_SYM989
+LDIFF_SYM990=Lme_75 - RocketFight_GameScene_CollisionDelegate__c__DisplayClass0_1__CollisionHappendb__1_object_System_Timers_ElapsedEventArgs
+	.long LDIFF_SYM990
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -28060,23 +28243,23 @@ LTDIE_80:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM990=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM991=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM991=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM992=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM992
 LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM992=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM992
+LDIFF_SYM993=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM993
 LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM993=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM994=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM994
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
@@ -28088,22 +28271,22 @@ LDIFF_SYM993=LTDIE_80 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM994=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM995=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM995=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM995
+LDIFF_SYM996=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM996
 Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM996=Lme_77 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM996
+LDIFF_SYM997=Lme_77 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM997
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
@@ -28116,33 +28299,33 @@ LTDIE_81:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM997=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM998=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM998=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM999=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM999
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM999=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM999
+LDIFF_SYM1000=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1000
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1000=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1001=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1001
 LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM1001=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1001
+LDIFF_SYM1002=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1002
 LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1002=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM1002
+LDIFF_SYM1003=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
@@ -28154,27 +28337,27 @@ LDIFF_SYM1002=LTDIE_81 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1003=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1004=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1004=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1005=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1005=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1006=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM1006
 Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1006=Lme_78 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1006
+LDIFF_SYM1007=Lme_78 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1007
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3

@@ -83,6 +83,12 @@ namespace RocketFight
         {
             for (int i = 0; i < BackgroundObsNo; i++)
                 Application.GameSceneViewer.AddChild(BackgroundObstaclesNodes[i]);
+            /// also add background image
+            SKSpriteNode BackgroundImage = new SKSpriteNode("Background");
+            BackgroundImage.ZPosition = -4;
+            BackgroundImage.Size = new CGSize(GameScene.DisplayDefaultSizes.Width + 100, GameScene.DisplayDefaultSizes.Height);
+            BackgroundImage.Position = new CGPoint(GameScene.DisplayDefaultSizes.Width / 2, GameScene.DisplayDefaultSizes.Height / 2);
+            Application.GameSceneViewer.AddChild(BackgroundImage);
         }
 
         public static void AddBonusElem()

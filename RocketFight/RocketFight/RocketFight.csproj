@@ -168,6 +168,8 @@
     <ImageAsset Include="Assets.xcassets\Players.spriteatlas\Fighter4Icon.imageset\playerLife3_blue.png" />
     <ImageAsset Include="Assets.xcassets\PlayerWinsIcon.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\PlayerWinsIcon.imageset\star_bronze.png" />
+    <ImageAsset Include="Assets.xcassets\Background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Background.imageset\blue.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -219,6 +221,7 @@
     <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter3Icon.imageset\" />
     <Folder Include="Assets.xcassets\Players.spriteatlas\Fighter4Icon.imageset\" />
     <Folder Include="Assets.xcassets\PlayerWinsIcon.imageset\" />
+    <Folder Include="Assets.xcassets\Background.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="GameScene.sks" />

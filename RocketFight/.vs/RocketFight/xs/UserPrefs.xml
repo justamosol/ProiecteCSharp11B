@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{274365C9-5976-49D0-A51A-1E100F6F422E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RocketFight/Players.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="RocketFight/GameScene.cs" Line="354" Column="29" />
       <File FileName="RocketFight/Players.cs" Line="41" Column="79" />

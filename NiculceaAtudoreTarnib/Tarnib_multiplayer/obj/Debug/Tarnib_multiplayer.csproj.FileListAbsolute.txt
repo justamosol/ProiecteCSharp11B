@@ -1,0 +1,10 @@
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\bin\Debug\Tarnib_multiplayer.exe.config
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\bin\Debug\Tarnib_multiplayer.exe
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\bin\Debug\Tarnib_multiplayer.pdb
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.Form1.resources
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.Properties.Resources.resources
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.csproj.GenerateResource.Cache
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.csproj.CoreCompileInputs.cache
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.exe
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.pdb
+C:\Users\Mircea\Desktop\Tarnib_multiplayer\Tarnib_multiplayer\obj\Debug\Tarnib_multiplayer.csprojResolveAssemblyReference.cache
