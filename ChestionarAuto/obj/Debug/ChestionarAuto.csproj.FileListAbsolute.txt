@@ -1,0 +1,10 @@
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\bin\Debug\ChestionarAuto.exe.config
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\bin\Debug\ChestionarAuto.exe
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\bin\Debug\ChestionarAuto.pdb
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.Form1.resources
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.Properties.Resources.resources
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.csproj.GenerateResource.cache
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.exe
+C:\Users\Andy\Desktop\ChestionarAuto\ChestionarAuto\obj\Debug\ChestionarAuto.pdb

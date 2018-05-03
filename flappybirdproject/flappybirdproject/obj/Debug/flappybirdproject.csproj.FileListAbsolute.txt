@@ -1,0 +1,10 @@
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\bin\Debug\flappybirdproject.exe.config
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\bin\Debug\flappybirdproject.exe
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\bin\Debug\flappybirdproject.pdb
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.csprojResolveAssemblyReference.cache
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.Form1.resources
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.Properties.Resources.resources
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.csproj.GenerateResource.Cache
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.exe
+C:\Users\Laptop\Desktop\flappybirdproject\flappybirdproject\obj\Debug\flappybirdproject.pdb

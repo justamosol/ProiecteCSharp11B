@@ -1,0 +1,8 @@
+C:\Users\Cristi\Desktop\snake again\snake again\bin\Debug\snake again.exe
+C:\Users\Cristi\Desktop\snake again\snake again\bin\Debug\snake again.pdb
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake_again.Form1.resources
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake_again.Properties.Resources.resources
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake again.csproj.GenerateResource.Cache
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake again.exe
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake again.pdb
+C:\Users\Cristi\Desktop\snake again\snake again\obj\x86\Debug\snake again.csprojResolveAssemblyReference.cache
